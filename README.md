@@ -8,6 +8,10 @@ Okay but what if Stōkt had a telegram bot.
 
 > TODO 
 
+## Usage
+
+> TODO
+
 ## Architecture
 
 ```mermaid
@@ -34,10 +38,6 @@ graph TD;
     I --> |Runs classification| L
     L --> |Classify climbing problems based on style| Y@{ shape: lin-rect, label: "Sorted problems module"}
 ```
-
-## Usage
-
-> TODO
 
 ## References
 
