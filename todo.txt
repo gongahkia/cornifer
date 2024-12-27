@@ -1,0 +1,53 @@
+(A) Learn how OpenCV works by following along with a worked example +deploy @dev 
+(A) Set up requirements.txt with all dependencies +deploy @dev @computer
+(A) Set up basic OpenCV environment and dependencies +setup @opencv @dev
+(A) Create hold detection prototype using basic shape recognition +detection @opencv @dev
+(A) Implement color-based hold segmentation +detection @opencv @computer
+(A) Create initial dataset structure for hold images +data @computer
+(A) Set up basic NICEGUI project structure +setup @frontend @dev
+(A) Create simple route visualization page +ui @frontend @computer
+(A) Implement basic image upload functionality +ui @frontend @dev
+
+(B) Create basic neural network architecture for style recognition +ml @neural @research
+(B) Implement initial training pipeline +ml @neural @computer
+(B) Collect and label training data from different gyms +data @collection @gym
+(B) Create data augmentation pipeline +data @computer
+(B) Build gym style classification dataset +ml @data @gym
+(B) Add style analysis results display +ui @frontend @computer
+(B) Create interactive hold selection interface +ui @frontend @dev
+(B) Implement route drawing functionality +ui @frontend @dev
+
+(B) Write unit tests for hold detection +testing @dev @computer
+(B) Create validation dataset for hold detection +testing @gym @computer
+(B) Implement accuracy metrics for style recognition +ml @testing @computer
+(B) Create automated testing pipeline +ci @testing @dev
+
+(B) Create Docker container for local deployment +deploy @dev @computer
+(B) Create docker-compose for local development +deploy @dev @computer
+(B) Write basic installation documentation +docs @computer
+(B) Set up CI/CD pipeline +ci @dev @computer
+(B) Write basic health checks for services +deploy @testing @dev
+(B) Set up environment variable configuration +deploy @dev @computer
+(B) Create deployment documentation for local setup +docs @computer
+
+(B) Set up MongoDB container for data persistence +deploy @db @dev
+(B) Configure nginx reverse proxy +deploy @dev @computer
+(B) Set up Redis for caching if needed +deploy @db @dev
+(B) Create backup strategy for trained models +deploy @data @computer
+(B) Configure logging and monitoring +deploy @dev @computer
+
+(B) Write make commands for common operations +deploy @dev @computer
+(B) Create shell scripts for deployment steps +deploy @dev @computer
+(B) Document system requirements and dependencies +docs @computer
+(B) Write troubleshooting guide +docs @computer
+
+(B) Set up GitHub Actions workflow +ci @dev @computer
+(B) Configure automated testing in CI pipeline +ci @testing @dev
+(B) Set up automated Docker image builds +ci @dev @computer
+(B) Configure staging environment +deploy @dev @computer
+(B) Set up automated deployment to staging +ci @dev @computer
+
+(B) Create basic security configuration +deploy @security @dev
+(B) Set up SSL/TLS certificates +deploy @security @dev
+(B) Configure rate limiting +deploy @security @dev
+(B) Set up automated security scanning +ci @security @dev
