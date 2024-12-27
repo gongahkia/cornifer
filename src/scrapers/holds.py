@@ -146,3 +146,89 @@ def scrape_decoy(
         site_identifier: product_array,
     }
     return wrapper
+
+
+def scrape_setter_closet(
+    site_identifier="setter_closet",
+    target_url="https://settercloset.com/collections/all-grips",
+):
+    """
+    NOTE - this function is deprecated
+    scrapes product images from the setter closet website
+    """
+    product_array = []
+    count = 0
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(target_url)
+            print(f"Success: Retrieved page URL {target_url}")
+            page.wait_for_selector("a.product-card")
+            product_cards = page.query_selector_all("a.product-card")
+            for card in product_cards:
+                count += 1
+                image_id = card.get_attribute("href")
+                img_element = card.query_selector(
+                    "div.product-card__image-container div.product-card__image-wrapper div.product-card__image.js div img"
+                )
+                if img_element:
+                    page.wait_for_timeout(1000)
+                    data_srcset = img_element.get_attribute("data-srcset")
+                    if data_srcset:
+                        image_source = data_srcset.split(",")[-1].strip()
+                    else:
+                        image_source = None
+                else:
+                    image_source = None
+                product_image = {
+                    "image_id": image_id,
+                    "image_source": f"https{image_source}".rstrip("1080w").strip(),
+                }
+                print(count, product_image)
+                product_array.append(product_image)
+        except Exception as e:
+            print(f"Error: Unable to process {target_url}: {e}")
+        finally:
+            browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper
+
+
+def scrape_tension(
+    site_identifier="tension",
+    target_url="https://tensionclimbing.com/products/wooden-hold-packs",
+):
+    """
+    scrapes product images from the tension climbing website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(target_url)
+            print(f"Success: Retrieved page URL {target_url}")
+            page.wait_for_selector("ul.slider__grid li")
+            items = page.query_selector_all("ul.slider__grid li")
+            for item in items:
+                image_id = item.get_attribute("data-media-id")
+                link_element = item.query_selector("a")
+                image_source = (
+                    link_element.get_attribute("href") if link_element else None
+                )
+                product_image = {
+                    "image_id": image_id,
+                    "image_source": f"https:{image_source}",
+                }
+                product_array.append(product_image)
+        except Exception as e:
+            print(f"Error: Unable to process {target_url}: {e}")
+        finally:
+            browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper

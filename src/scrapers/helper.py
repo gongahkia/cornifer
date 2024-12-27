@@ -1,5 +1,8 @@
 import os
 import json
+import hashlib
+import hmac
+from cryptography.fernet import Fernet
 
 
 def file_exists(target_filepath):
@@ -26,3 +29,42 @@ def write_json(data, target_filepath):
     except Exception as e:
         print(f"Error: Unable to write to {target_filepath}: {e}")
         return False
+
+
+def encrypt_json(target_filepath, salt_phrase):
+    """
+    encrypts a json file using fernet encryption
+    """
+    try:
+        with open(target_filepath, "r") as f:
+            data = json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f"File not found: {target_filepath}")
+    key = hashlib.sha256(salt_phrase.encode()).digest()
+    f = Fernet(key)
+    encrypted_data = f.encrypt(json.dumps(data).encode())
+    encrypted_filepath = target_filepath + ".enc"
+    with open(encrypted_filepath, "wb") as f:
+        f.write(encrypted_data)
+    return encrypted_filepath
+
+
+def decrypt_json(target_filepath, salt_phrase):
+    """
+    decrypts a json file using fernet encryption
+    """
+    try:
+        with open(target_filepath, "rb") as f:
+            encrypted_data = f.read()
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Error: File not found: {target_filepath}")
+    key = hashlib.sha256(salt_phrase.encode()).digest()
+    f = Fernet(key)
+    try:
+        decrypted_data = f.decrypt(encrypted_data)
+    except Exception as e:
+        raise ValueError(f"Error: Decryption failed: {e}")
+    decrypted_filepath = target_filepath[:-4]
+    with open(decrypted_filepath, "w") as f:
+        json.dump(json.loads(decrypted_data.decode()), f, indent=4)
+    return decrypted_filepath

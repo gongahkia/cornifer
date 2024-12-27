@@ -6,10 +6,9 @@ Results scraped to [`generated_log`](./../generated_log/).
 
 * https://www.atomikclimbingholds.com/bulk-packs-2
 * https://menagerieclimb.com/collections/all-grips
-
 * https://decoy-holds.com/pages/8x12-board-sets
-* https://settercloset.com/collections/all-grips
 * https://tensionclimbing.com/products/wooden-hold-packs
+
 * https://moonclimbing.com/moonboard/holds-and-bolts.html
 * https://moonclimbing.com/moonboard/kits-and-packages.html
 * https://www.artline-holds.com/en/
@@ -21,6 +20,8 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://pusher.world/product-category/joes-valley/
 * https://pusher.world/product-category/woodie/
 * https://www.teknikhandholds.com/pages/holds
+
+* https://settercloset.com/collections/all-grips
 
 ## [Climbing boards](./boards.py)
 

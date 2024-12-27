@@ -1304,5 +1304,43 @@
             "image_id": "lime feet",
             "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/limestone_feet_2_480x480.jpg?v=1681223813"
         }
+    ],
+    "tension": [
+        {
+            "image_id": "30779727118517",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Home-Wall-1-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727151285",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Home-Wall-2-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727184053",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Large-Pack-1-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727216821",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Large-Pack-2-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727249589",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Medium-Pack-1-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727282357",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Medium-Pack-2-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727315125",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Small-Pack-1-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727347893",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Small-Pack-2-scaled.jpg?v=1724934114&width=5000"
+        },
+        {
+            "image_id": "30779727380661",
+            "image_source": "https://tensionclimbing.com/cdn/shop/files/Foot-set-scaled.jpg?v=1724934114&width=5000"
+        }
     ]
 }
