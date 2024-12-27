@@ -12,7 +12,7 @@ def scrape_moon(
     target_url="https://moonclimbing.com/moonboard/holds-and-bolts.html",
 ):
     """
-    scrapes product images from the moon climbing website
+    scrapes product images from the moonboard website
     """
     product_array = []
     with sync_playwright() as p:
@@ -73,7 +73,7 @@ def scrape_tension(
     target_url="https://tensionclimbing.com/products/tension-board-2",
 ):
     """
-    scrapes product images from the tension climbing website
+    scrapes product images from the tension board website
     """
     product_array = []
     with sync_playwright() as p:
@@ -104,5 +104,93 @@ def scrape_tension(
             browser.close()
     wrapper = {
         site_identifier: product_array,
+    }
+    return wrapper
+
+
+def scrape_grasshopper(
+    site_identifier="grasshopper_boards",
+    target_url="https://grasshopperclimbing.com/products/",
+):
+    """
+    scrapes product images from the grasshopper board website
+    """
+    wrapper = {
+        site_identifier: [
+            {
+                "image_id": "GRASSHOPPER 8 X 10",
+                "image_source": "https://grasshopperclimbing.com/wp-content/uploads/2022/10/ninja_01.png",
+            },
+            {
+                "image_id": "GRASSHOPPER 8 X 12",
+                "image_source": "https://grasshopperclimbing.com/wp-content/uploads/2022/10/master_01.png",
+            },
+            {
+                "image_id": "GRASSHOPPER 12 X 12",
+                "image_source": "https://grasshopperclimbing.com/wp-content/uploads/2022/10/grandmaster_01.png",
+            },
+        ]
+    }
+    return wrapper
+
+
+def scrape_kilter(
+    site_identifier="kilter_boards",
+    target_url="https://settercloset.com/pages/kb-layouts",
+):
+    """
+    scrapes product images from the kilter board website
+    """
+    wrapper = {
+        site_identifier: [
+            {
+                "image_id": "Home Wall Kilter Board 7x10 Mainline (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb710main-whitecrop.jpg?v=1668723662&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 7x10 Auxiliary (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb710aux-whitecrop.jpg?v=1668723662&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 7x10 Fullride (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb710full-whitecrop.jpg?v=1668723768&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 8x12 Mainline (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb812main-kick.jpg?v=1668723659&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 8x12 Auxiliary (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb812aux-kick.jpg?v=1668723656&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 8x12 Fullride (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb812full-kick.jpg?v=1668723661&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x10 Mainline (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1010main-whitecrop.jpg?v=1668723669&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x10 Auxiliary (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1010aux-whitecrop.jpg?v=1668723670&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x10 Fullride (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1010full-whitecrop.jpg?v=1668723670&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x12 Mainline (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1012main-kick.jpg?v=1668723666&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x12 Auxiliary (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1012aux-kick.jpg?v=1668723666&width=1946",
+            },
+            {
+                "image_id": "Home Wall Kilter Board 10x12 Fullride (Holds)",
+                "image_source": "https://seriousclimbing.com/cdn/shop/products/hwkb1012full-kick.jpg?v=1668723666&width=1946",
+            },
+        ]
     }
     return wrapper

@@ -16,6 +16,7 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://moonclimbing.com/moonboard/kits-and-packages.html
 * https://tensionclimbing.com/products/tension-board-2
 * https://grasshopperclimbing.com/products/
+
 * https://settercloset.com/pages/kb-layouts
 * https://settercloset.com/products/kilter-board-fullride-complete
 * https://settercloset.com/products/kilter-board-original-complete
