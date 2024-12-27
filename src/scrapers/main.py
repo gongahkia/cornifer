@@ -14,5 +14,5 @@ if __name__ == "__main__":
     he.write_json(ho.scrape_tension(), LOG_FILEPATH)
     he.write_json(ho.scrape_moon(), LOG_FILEPATH)
     he.write_json(ho.scrape_teknik_handholds(), LOG_FILEPATH)
-    # he.encrypt_json(LOG_FILEPATH, "bouldering")
+    he.encrypt_json(LOG_FILEPATH, "bouldering")
     # he.decrypt_json(LOG_FILEPATH, "bouldering")
