@@ -10,7 +10,6 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://tensionclimbing.com/products/wooden-hold-packs
 
 * https://moonclimbing.com/moonboard/holds-and-bolts.html
-* https://moonclimbing.com/moonboard/kits-and-packages.html
 * https://www.artline-holds.com/en/
 * https://www.metoliusclimbing.com/climbing_holds.html
 * https://trango.com/collections/holds

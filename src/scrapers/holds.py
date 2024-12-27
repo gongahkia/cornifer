@@ -232,3 +232,43 @@ def scrape_tension(
         site_identifier: product_array,
     }
     return wrapper
+
+
+def scrape_moon(
+    site_identifier="moon",
+    target_url="https://moonclimbing.com/moonboard/holds-and-bolts.html",
+):
+    """
+    scrapes product images from the moon climbing website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(target_url)
+            print(f"Success: Retrieved page URL {target_url}")
+            page.wait_for_selector("div#product-cards-container div")
+            product_cards = page.query_selector_all("div#product-cards-container div")
+            for card in product_cards:
+                image_id = card.get_attribute("id")
+                img_element = card.query_selector(
+                    "div div a.product.photo.product-item-photo.block img"
+                )
+                image_source = (
+                    img_element.get_attribute("data-src") if img_element else None
+                )
+                if image_id and image_source:
+                    product_image = {
+                        "image_id": image_id,
+                        "image_source": image_source,
+                    }
+                    product_array.append(product_image)
+        except Exception as e:
+            print(f"Error: Unable to process {target_url}: {e}")
+        finally:
+            browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper
