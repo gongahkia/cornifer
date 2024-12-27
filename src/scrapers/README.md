@@ -6,6 +6,7 @@ Results scraped to [`generated_log`](./../generated_log/).
 
 * https://www.atomikclimbingholds.com/bulk-packs-2
 * https://menagerieclimb.com/collections/all-grips
+
 * https://decoy-holds.com/pages/8x12-board-sets
 * https://settercloset.com/collections/all-grips
 * https://tensionclimbing.com/products/wooden-hold-packs
