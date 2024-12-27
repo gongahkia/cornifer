@@ -272,3 +272,86 @@ def scrape_moon(
         site_identifier: product_array,
     }
     return wrapper
+
+
+def scrape_artline(
+    site_identifier="artline",
+    target_url="https://www.artline-holds.com/en/products/holds-macros/",
+):
+    """
+    NOTE - this function is deprecated
+    scrapes product images from the artline holds website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        try:
+            page.goto(target_url)
+            print(f"Success: Retrieved page URL {target_url}")
+            page.wait_for_selector("button#tarteaucitronPersonalize2")
+            page.click("button#tarteaucitronPersonalize2")
+            print("Success: Clicked the allow cookies button")
+            page.evaluate("window.scrollTo(0, document.body.scrollHeight)")
+            page.wait_for_timeout(10000)
+            print("Success: Scrolled to bottom of the page.")
+            images = page.query_selector_all("img.lazy.entered.loaded")
+            for img in images:
+                image_source = img.get_attribute("data-src")
+                product_image = {
+                    "image_id": image_source,
+                    "image_source": image_source,
+                }
+                product_array.append(product_image)
+        except Exception as e:
+            print(f"Error: Unable to process {target_url}: {e}")
+        finally:
+            browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper
+
+
+def scrape_teknik_handholds(
+    site_identifier="teknik_handholds",
+    target_url_array=[
+        "https://www.teknikhandholds.com/collections/jugs",
+        "https://www.teknikhandholds.com/collections/edges",
+        "https://www.teknikhandholds.com/collections/pockets",
+        "https://www.teknikhandholds.com/collections/pinches",
+        "https://www.teknikhandholds.com/collections/slopers",
+        "https://www.teknikhandholds.com/collections/footholds",
+        "https://www.teknikhandholds.com/collections/screw-ons",
+        "https://www.teknikhandholds.com/collections/indy",
+        "https://www.teknikhandholds.com/collections/mix-packs",
+    ],
+):
+    """
+    scrapes product images from the teknik handholds website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        for url in target_url_array:
+            try:
+                page.goto(url)
+                print(f"Success: Retrieved page URL {url}")
+                page.wait_for_selector("img.product-photo")
+                images = page.query_selector_all("img.product-photo")
+                for img in images:
+                    image_source = img.get_attribute("src")
+                    image_name = img.get_attribute("alt")
+                    product_image = {
+                        "image_id": image_name,
+                        "image_source": f"https:{image_source}",
+                    }
+                    product_array.append(product_image)
+            except Exception as e:
+                print(f"Error processing {url}: {e}")
+        browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper

@@ -12,6 +12,19 @@ def file_exists(target_filepath):
     return os.path.isfile(target_filepath)
 
 
+def delete_file(target_filepath):
+    """
+    deletes the file at the given filepath if it exists
+    """
+    if file_exists(target_filepath):
+        os.remove(target_filepath)
+        print(f"Success: File at filepath {target_filepath} deleted successfully.")
+        return True
+    else:
+        print(f"Error: File at filepath {target_filepath}' does not exist.")
+        return False
+
+
 def write_json(data, target_filepath):
     """
     writes or appends dictionary data to a specified json file

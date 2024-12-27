@@ -1,1420 +1,888 @@
 {
-    "atomik": [
+    "teknik_handholds": [
         {
-            "image_id": "15-pack-rock-like",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016129_15-pack-rock-like_400.jpeg"
+            "image_id": "Tikes",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/tikes1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "22-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0009595_22-pack_400.jpeg"
+            "image_id": "Clippers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/clippers1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "24-kids-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0029841_24-classic-kids-playground-pack_400.jpeg"
+            "image_id": "Runts Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/runts_a1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "24-kids-playground-pack-golfus",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0017804_24-kids-playground-pack-golfus_400.jpeg"
+            "image_id": "Runts Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/runts_b1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "25-pack-golfus-variety-for-spray-walls",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0020209_25-pack-variety-golfus_400.jpeg"
+            "image_id": "Geeks Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/geeks_a1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "34-pack-for-little-hands",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0010512_34-pack-for-little-hands_400.jpeg"
+            "image_id": "Geeks Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/geeks_b1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "35-pack-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015730_35-pack-steep-wall_400.jpeg"
+            "image_id": "Sissies Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/sissies_a1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "35-rock-like-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015187_35-rock-like-pack_400.jpeg"
+            "image_id": "Sissies Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/sissies_b1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "35-pack-protons",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0010636_35-pack-protons_400.jpeg"
+            "image_id": "Supergeeks",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SG_large.jpg?v=1603314072"
         },
         {
-            "image_id": "39-pack-for-little-hands-with-down-climb-holds-for-safety",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0031643_39-pack-for-little-hands-with-down-climb-holds-for-safety_400.jpeg"
+            "image_id": "Ruffians set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RF1_large.jpg?v=1571438530"
         },
         {
-            "image_id": "40-pack-variety-climbing-holds",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016152_40-pack-variety_400.jpeg"
+            "image_id": "Ruffians set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RF2_large.jpg?v=1571438530"
         },
         {
-            "image_id": "40-pack-protons",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0010650_40-pack-protons_400.jpeg"
+            "image_id": "Rapscallions Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RA1_large.jpg?v=1632500196"
         },
         {
-            "image_id": "47-variety-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016473_47-variety-pack_400.jpeg"
+            "image_id": "Rapscallions Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RA2grips_large.jpg?v=1632501889"
         },
         {
-            "image_id": "50-pack-golfus-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0027537_50-pack-golfus-steep-wall_400.jpeg"
+            "image_id": "Downclimb Jugs 6 pack",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/DCJgrips1_large.jpg?v=1603748523"
         },
         {
-            "image_id": "50-pack-facets-jugs-and-feet",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015298_50-pack-facets-jugs-and-feet_400.jpeg"
+            "image_id": "Hooligans Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/HO1grips_large.jpg?v=1632503377"
         },
         {
-            "image_id": "60-pack-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015898_60-pack-steep-wall_400.jpeg"
+            "image_id": "Hooligans Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/HO2_large.jpg?v=1632503540"
         },
         {
-            "image_id": "60-variety-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0020835_60-variety-pack_400.jpeg"
+            "image_id": "Bullies Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/bullies_a1_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "60-rock-like-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015189_60-rock-like-pack_400.jpeg"
+            "image_id": "Bullies Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/bullies_b1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "63-gymnastics-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016328_63-pack-gymnastics_400.jpeg"
+            "image_id": "Hoods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/hoods2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "65-pack-basic-variety",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0027536_65-pack-variety-basic-20_400.jpeg"
+            "image_id": "Bouncers Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BO1grips_large.jpg?v=1632504241"
         },
         {
-            "image_id": "almost-as-great-68-climbing-holds",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016156_68-pack_400.jpeg"
+            "image_id": "Bouncers Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BO2grips_large.jpg?v=1632504410"
         },
         {
-            "image_id": "69-pack-divots",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0032289_69-pack-divots_400.jpeg"
+            "image_id": "Big Bullies set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BB1_large.jpg?v=1571438530"
         },
         {
-            "image_id": "75-pack-facets",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0012927_75-pack-facets-feet-crimps-pinches-jugs_400.jpeg"
+            "image_id": "Big Bullies set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BB2_large.jpg?v=1571438530"
         },
         {
-            "image_id": "85-rock-like-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015463_85-rock-like-pack_400.jpeg"
+            "image_id": "Longbows",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/longbows1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "90-pack-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015897_90-pack-steep-wall_400.jpeg"
+            "image_id": "Hooded Fangs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/hooded-fangs1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "100-rock-like-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015188_100-rock-like-pack_400.jpeg"
+            "image_id": "Brutes Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BRT1grips_large.jpg?v=1632504869"
         },
         {
-            "image_id": "100-pack-golfus-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0027616_100-pack-golfus-steep-wall_400.jpeg"
+            "image_id": "Brutes Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BRT2_large.jpg?v=1632505551"
         },
         {
-            "image_id": "100-pack-classic-bolt-on-climbing-holds",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0016160_100-pack-classic-bolt-on_400.jpeg"
+            "image_id": "Fat Lips",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_lips1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "100-pack-for-little-hands",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0032560_100-pack-for-little-hands_400.jpeg"
+            "image_id": "Fat Grips",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_grips1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "100-pack-gymnastics",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0012540_100-pack-gymnasticstrampoline-parks_400.jpeg"
+            "image_id": "Fat Rings",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_rings1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "108-great-climbing-holds",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0030266_108-pack_400.jpeg"
+            "image_id": "Thugs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/thugs1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "115-pack-steep-wall",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0015715_115-pack-steep-wall_400.jpeg"
+            "image_id": "Big Mouths",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BMO_grips_lg_large.jpg?v=1571438531"
         },
         {
-            "image_id": "120-bff-pack-great-for-schools-gymnastics-martial-arts-cross-fit-trampoline-parks-and-ninja-gyms",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0021813_120-pack-gymnastics_400.jpeg"
+            "image_id": "Big Brutes Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BBRT1_large.jpg?v=1632506137"
         },
         {
-            "image_id": "bolt-on-sensory-climbing-holds-block-pack",
-            "image_source": "https://media-atomikclimbingholds-cdn.azureedge.net/atomik-live/images/thumbs/0005339_sensory-block-pack-bolt-on_400.jpeg"
-        }
-    ],
-    "menagerie": [
-        {
-            "image_id": "blockade-volume-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06750_300x300.jpg?v=1559620786"
-        },
-        {
-            "image_id": "blockade-volume-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06753_300x300.jpg?v=1559620811"
-        },
-        {
-            "image_id": "blockade-volume-5",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06746_300x300.jpg?v=1559620825"
-        },
-        {
-            "image_id": "blockade-volume-6",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06747_300x300.jpg?v=1559620850"
-        },
-        {
-            "image_id": "blockade-volume-7",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06742_300x300.jpg?v=1559620872"
-        },
-        {
-            "image_id": "host-edges-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04791_300x300.jpg?v=1554694246"
-        },
-        {
-            "image_id": "host-edges-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04792_300x300.jpg?v=1554694301"
-        },
-        {
-            "image_id": "host-edges-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04796_300x300.jpg?v=1554694334"
-        },
-        {
-            "image_id": "host-edges-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04797_300x300.jpg?v=1554694376"
-        },
-        {
-            "image_id": "host-edges-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04800_300x300.jpg?v=1556333128"
-        },
-        {
-            "image_id": "host-edges-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04801_300x300.jpg?v=1556333154"
-        },
-        {
-            "image_id": "host-edges-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_743ccbb8-d844-4160-b58e-ecea2be39a47_300x300.jpg?v=1556387116"
-        },
-        {
-            "image_id": "mall",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04755_300x300.jpg?v=1554694452"
-        },
-        {
-            "image_id": "medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04756_300x300.jpg?v=1554694513"
-        },
-        {
-            "image_id": "medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04759_300x300.jpg?v=1554694549"
-        },
-        {
-            "image_id": "",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04760_300x300.jpg?v=1554694594"
-        },
-        {
-            "image_id": "xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04764_300x300.jpg?v=1554694642"
-        },
-        {
-            "image_id": "2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04766_300x300.jpg?v=1554694674"
-        },
-        {
-            "image_id": "full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_42696d64-8a46-47d5-8518-6527c8f09915_300x300.jpg?v=1556386614"
-        },
-        {
-            "image_id": "jugs-small-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04769_300x300.jpg?v=1554693695"
-        },
-        {
-            "image_id": "jugs-small-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2t_300x300.jpg?v=1559621611"
-        },
-        {
-            "image_id": "jugs-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04774_300x300.jpg?v=1554693831"
-        },
-        {
-            "image_id": "jugs-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04775_300x300.jpg?v=1554693918"
-        },
-        {
-            "image_id": "jugs-large-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04779_300x300.jpg?v=1554694079"
-        },
-        {
-            "image_id": "jugs-large-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04780_300x300.jpg?v=1554694139"
-        },
-        {
-            "image_id": "jugs-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04786_300x300.jpg?v=1556333004"
-        },
-        {
-            "image_id": "jugs-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04787_300x300.jpg?v=1556333075"
-        },
-        {
-            "image_id": "jugs-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_4f1b5ec0-da99-4eb5-9ed9-537c6507362c_300x300.jpg?v=1558117527"
-        },
-        {
-            "image_id": "mall",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09632_New_300x300.jpg?v=1552157988"
-        },
-        {
-            "image_id": "medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09639_New_300x300.jpg?v=1552158098"
-        },
-        {
-            "image_id": "medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09807_New_300x300.jpg?v=1552158245"
-        },
-        {
-            "image_id": "1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02396_300x300.jpg?v=1551557669"
-        },
-        {
-            "image_id": "2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02243_New_300x300.jpg?v=1552157183"
-        },
-        {
-            "image_id": "xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02240_New_300x300.jpg?v=1552157426"
-        },
-        {
-            "image_id": "2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02086_New_300x300.jpg?v=1552157455"
-        },
-        {
-            "image_id": "4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02083_New_300x300.jpg?v=1552157566"
-        },
-        {
-            "image_id": "6xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01854_New_300x300.jpg?v=1552157834"
-        },
-        {
-            "image_id": "full-lines",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_300x300.jpg?v=1552158837"
-        },
-        {
-            "image_id": "medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09809_300x300.jpg?v=1552160997"
-        },
-        {
-            "image_id": "medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09967_1_300x300.jpg?v=1552161912"
-        },
-        {
-            "image_id": "1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC09970_1_300x300.jpg?v=1552162446"
-        },
-        {
-            "image_id": "2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01849_300x300.jpg?v=1551557393"
-        },
-        {
-            "image_id": "xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01693_300x300.jpg?v=1551557407"
-        },
-        {
-            "image_id": "xl-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01612_300x300.jpg?v=1551557454"
-        },
-        {
-            "image_id": "3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01454_300x300.jpg?v=1551557488"
-        },
-        {
-            "image_id": "4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01451_300x300.jpg?v=1551557505"
-        },
-        {
-            "image_id": "5xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01297_300x300.jpg?v=1552162941"
-        },
-        {
-            "image_id": "6xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01294_300x300.jpg?v=1551557533"
-        },
-        {
-            "image_id": "7xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC01140_300x300.jpg?v=1551557558"
-        },
-        {
-            "image_id": "full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_5f84b134-21f4-44cb-9ade-268389c89528_300x300.jpg?v=1552164099"
-        },
-        {
-            "image_id": "mi-jugs-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02401_300x300.jpg?v=1551557079"
-        },
-        {
-            "image_id": "mi-jugs-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02554_300x300.jpg?v=1551557101"
-        },
-        {
-            "image_id": "mi-jugs-large-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02558_300x300.jpg?v=1551557129"
-        },
-        {
-            "image_id": "mi-jugs-large-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02713_300x300.jpg?v=1551557145"
-        },
-        {
-            "image_id": "mi-jugs-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC02716_300x300.jpg?v=1551557172"
-        },
-        {
-            "image_id": "mi-jugs-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_f5d99ffc-094c-411f-924e-bcc2df5493e1_300x300.jpg?v=1552188855"
-        },
-        {
-            "image_id": "binary-edges-small-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03157_300x300.jpg?v=1551561493"
-        },
-        {
-            "image_id": "binary-edges-small-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03156_300x300.jpg?v=1551561502"
-        },
-        {
-            "image_id": "binary-edges-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03001_300x300.jpg?v=1551561473"
-        },
-        {
-            "image_id": "binary-edges-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04743_300x300.jpg?v=1554693385"
-        },
-        {
-            "image_id": "binary-edges-large-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03000_300x300.jpg?v=1554693440"
-        },
-        {
-            "image_id": "binary-edges-large-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04746_300x300.jpg?v=1554693497"
-        },
-        {
-            "image_id": "binary-edges-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06677_300x300.jpg?v=1556388985"
-        },
-        {
-            "image_id": "binary-edges-2xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC06678_300x300.jpg?v=1556389151"
-        },
-        {
-            "image_id": "binary-edges-2xl-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04747_300x300.jpg?v=1554692908"
+            "image_id": "Big Brutes Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BBRT2grip_large.jpg?v=1632506507"
         },
         {
-            "image_id": "binary-edges-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04752_300x300.jpg?v=1554692952"
+            "image_id": "Big Hoods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/BigHoods_large.jpg?v=1730043274"
         },
         {
-            "image_id": "binary-edges-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_579d54b5-ba10-4ce7-bde3-352b4ff07da9_300x300.jpg?v=1556389661"
+            "image_id": "Vandals Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/VA1_large.jpg?v=1632507046"
         },
         {
-            "image_id": "jowl-jugs-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Small_300x300.jpg?v=1562791136"
+            "image_id": "Vandals Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/VA2_large.jpg?v=1632507379"
         },
         {
-            "image_id": "jowl-jugs-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Medium_300x300.jpg?v=1562791150"
+            "image_id": "Raiders",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RD_large.jpg?v=1632507659"
         },
         {
-            "image_id": "jowl-jugs-large1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Large_1_300x300.jpg?v=1562790965"
+            "image_id": "Overhoods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/Overhoods_large.jpg?v=1715806549"
         },
         {
-            "image_id": "jowl-jugs-large2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Large_2_300x300.jpg?v=1562790140"
+            "image_id": "Super Villains",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/super_villain_set_0ecc8143-e83b-456a-be93-8265b3861365_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "jowl-jugs-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/XL_eca58b23-79ce-4e78-8625-a88920bf7392_300x300.jpg?v=1562790106"
+            "image_id": "Cobra Commanders",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Cobra_Commanders_set_grip_3_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jowl-jugs-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/3_X_300x300.jpg?v=1562790080"
+            "image_id": "Marauders",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/MDR_large.jpg?v=1632508129"
         },
         {
-            "image_id": "jowl-jugs-5xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/5_X_a5f6a211-5263-4921-982f-d0699d302bd1_300x300.jpg?v=1562790057"
+            "image_id": "Fatty Fatty Fat Lips",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/FFFL_large.jpg?v=1571438531"
         },
         {
-            "image_id": "jowl-jugs-6xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/6_X_33bf8cbc-0f24-426d-8a1b-90e883e04d9a_300x300.jpg?v=1562790038"
+            "image_id": "Aphids",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/aphids2_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "jowl-jugs-7xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/7_X_4b6472a2-3e22-41f2-aad5-51f46cc863d9_300x300.jpg?v=1562790015"
+            "image_id": "Mini Methods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/MMD_large.jpg?v=1662398691"
         },
         {
-            "image_id": "moebas-small-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04679_300x300.jpg?v=1551592497"
+            "image_id": "Midges",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/midges3_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "moebas-small-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04762_300x300.jpg?v=1551592532"
+            "image_id": "Gnats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/gnats2_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "moebas-medium-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04923_300x300.jpg?v=1551592415"
+            "image_id": "Crickets Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/crickets_a2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "moebas-medium-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04932_300x300.jpg?v=1551592453"
+            "image_id": "Crickets Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/crickets_b2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "moebas-large-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC05106_300x300.jpg?v=1551592368"
+            "image_id": "Meatlets",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/meatlets1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "moebas-xl-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC05109_1_300x300.jpg?v=1551592573"
+            "image_id": "Methods Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/methods_a2_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "moebas-xl-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC05194_300x300.jpg?v=1551592617"
+            "image_id": "Methods Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/methods_b2_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "moebas-2-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC05423_300x300.jpg?v=1551592289"
+            "image_id": "Big Sneakers Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/big_sneakersa1_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "moebas-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Amoebas_-_Full_Line_300x300.jpg?v=1552187890"
+            "image_id": "Big Sneakers Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/big_sneakers_b1_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "jowl-jugs-small-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Small_b511f7f3-2315-490a-9c77-fd2bce16e04a_300x300.jpg?v=1582398141"
+            "image_id": "Trill",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Trill_large.jpg?v=1611598710"
         },
         {
-            "image_id": "jowl-jugs-medium-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Medium_17a3f009-62de-44e5-ac3c-43c131be5fd5_300x300.jpg?v=1582397925"
+            "image_id": "Scarabs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/scarabs2_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "jowl-jugs-xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/XL_a7b1b39d-b617-461e-aece-c5038cf6025e_300x300.jpg?v=1582396951"
+            "image_id": "Minimeats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/minimeats1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "bananas-xsmall-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03921_300x300.jpg?v=1552185303"
+            "image_id": "Coda",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Codagrips_large.jpg?v=1611602468"
         },
         {
-            "image_id": "bananas-xsmall-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03918_300x300.jpg?v=1552185354"
+            "image_id": "Stylets",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Stylets_grips_large.jpg?v=1571438531"
         },
         {
-            "image_id": "bananas-small-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03914_1_300x300.jpg?v=1552185397"
+            "image_id": "Grasshopper Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/grasshopper_a2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "bananas-small-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03835_1_300x300.jpg?v=1552185595"
+            "image_id": "Grasshopper Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/grasshopper_b2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "bananas-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03682_5b321c02-7e01-4ace-9b12-f829d0739149_300x300.jpg?v=1552185494"
+            "image_id": "Meatiums",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/meatiums2_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "bananas-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03564_624aeac1-b20a-4a43-8186-cf55221bb78b_300x300.jpg?v=1552185537"
+            "image_id": "Alto",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Alto_large.jpg?v=1611599909"
         },
         {
-            "image_id": "bananas-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04726_300x300.jpg?v=1556390776"
+            "image_id": "Hardly Curled Edges",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/HCE_large.jpg?v=1571438531"
         },
         {
-            "image_id": "bananas-2-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03561_300x300.jpg?v=1552185772"
+            "image_id": "Fings",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fings2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "bananas-4-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04725_300x300.jpg?v=1556306697"
+            "image_id": "Equations",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/formulas1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "bananas-5-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04721_300x300.jpg?v=1556306676"
+            "image_id": "Tron Discs Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/TD1a_large.jpg?v=1731177721"
         },
         {
-            "image_id": "bananas-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_8ab9c7c6-cdbd-4709-b90d-10f3cf881258_300x300.jpg?v=1556391544"
+            "image_id": "Tron Discs Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/tron_disc_a_1_large.jpg?v=1571438528"
         },
         {
-            "image_id": "wheads-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08059_300x300.jpg?v=1551592896"
+            "image_id": "Micro Elytra",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/MicroElytra_large.jpg?v=1714867899"
         },
         {
-            "image_id": "wheads-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08055_300x300.jpg?v=1551592858"
+            "image_id": "Curled Edges",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/CE_large.jpg?v=1571438531"
         },
         {
-            "image_id": "wheads-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC07890_1_300x300.jpg?v=1551592814"
+            "image_id": "Forte Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Forte1_large.jpg?v=1611602570"
         },
         {
-            "image_id": "wheads-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC07884_300x300.jpg?v=1551592943"
+            "image_id": "Forte Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Forte2_large.jpg?v=1611600723"
         },
         {
-            "image_id": "wheads-2-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC07725_300x300.jpg?v=1551592668"
+            "image_id": "Formulas",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/equations1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "wheads-4-xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC07721_300x300.jpg?v=1551592717"
+            "image_id": "Long Methods Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LM1_large.jpg?v=1658246397"
         },
         {
-            "image_id": "wheads-4-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC07566_300x300.jpg?v=1551592772"
+            "image_id": "Long Methods Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LM2_large.jpg?v=1658258545"
         },
         {
-            "image_id": "wheads-full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Arrowheads_-_Full_Line_300x300.jpg?v=1552188463"
+            "image_id": "Locusts Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/locusts_b2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08188_300x300.jpg?v=1551594393"
+            "image_id": "Locusts Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/locusts_a2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08405_300x300.jpg?v=1551594457"
+            "image_id": "Mini Elytra",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/MiniElytra_large.jpg?v=1724363217"
         },
         {
-            "image_id": "xl-set-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04730_300x300.jpg?v=1556307827"
+            "image_id": "Dragonflys",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/dragonflys2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "xl-set-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04738_300x300.jpg?v=1556307795"
+            "image_id": "Grand Scarabs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GrandScarabs_0cfdd733-a37f-4da1-8836-29384c971080_large.jpg?v=1658244218"
         },
         {
-            "image_id": "2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04731_300x300.jpg?v=1556307757"
+            "image_id": "Grand High Scarabs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GrandHighScarabs_large.jpg?v=1604255145"
         },
         {
-            "image_id": "3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/tadpole3x-2_300x300.jpg?v=1595088647"
+            "image_id": "Small Elytra",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/SEL_large.jpg?v=1724362478"
         },
         {
-            "image_id": "4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04736_300x300.jpg?v=1556307563"
+            "image_id": "Elytra",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/Elytra_large.jpg?v=1715008337"
         },
         {
-            "image_id": "5xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04739_300x300.jpg?v=1556307533"
+            "image_id": "Big Elytra",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/BigElytra_large.jpg?v=1715805931"
         },
         {
-            "image_id": "full-line",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/All_Together_cd4a8a57-26de-4405-b82a-571e4dca144c_300x300.jpg?v=1556386131"
+            "image_id": "Ridgelines",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RLgripsa1_b53fc794-1de9-496f-a3cf-916e88c5cae9_large.jpg?v=1658245121"
         },
         {
-            "image_id": "feet-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04814_300x300.jpg?v=1556307002"
+            "image_id": "Lengthy Long Methods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LLMM_large.jpg?v=1650830089"
         },
         {
-            "image_id": "miserable-bastards-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03928_300x300.jpg?v=1552245373"
+            "image_id": "Sideways",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/Sideways_705d5f31-c621-4d3a-b9d9-6bfb08dccfd7_large.jpg?v=1729870247"
         },
         {
-            "image_id": "ke-feet-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04804_300x300.jpg?v=1556308794"
+            "image_id": "Siderails",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/Siderails_6fc72b6f-d64b-4669-80cd-c2f374c75397_large.jpg?v=1729874022"
         },
         {
-            "image_id": "knob-feet-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03945_300x300.jpg?v=1552244604"
+            "image_id": "Skylines",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Skylinesgrips_large.jpg?v=1658242109"
         },
         {
-            "image_id": "feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04808_300x300.jpg?v=1556308073"
+            "image_id": "Unnecessarily Large HCE",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/ULHC1_large.jpg?v=1656452069"
         },
         {
-            "image_id": "worms-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03929_300x300.jpg?v=1552244651"
+            "image_id": "Unnecessarily Large CE",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/ULCEgrips4_large.jpg?v=1658185410"
         },
         {
-            "image_id": "blueberry-pancake-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03924_300x300.jpg?v=1552244684"
+            "image_id": "Bipods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/bipods2_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "bursts-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03952_300x300.jpg?v=1552244768"
+            "image_id": "Duck Pods",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/DKP_large.jpg?v=1571438531"
         },
         {
-            "image_id": "feet-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/geofeet3_300x300.jpg?v=1595091778"
+            "image_id": "Deep Pockets",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/DP_grip_c01116f5-9c93-4287-8756-2a97c58a3aa7_large.jpg?v=1571438531"
         },
         {
-            "image_id": "feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03947_300x300.jpg?v=1552244812"
+            "image_id": "Minibots Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/minibots_a1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "hnut-holes-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03959_300x300.jpg?v=1552244871"
+            "image_id": "Minibots Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/minibots_b1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "htning-bolts-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08185_90381989-0a36-45b9-8d5a-602b7ce66c03_300x300.jpg?v=1551593596"
+            "image_id": "Low Flat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Low_Flat_Pinches_large.jpg?v=1571438531"
         },
         {
-            "image_id": "feet-hands",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04819_300x300.jpg?v=1556307126"
+            "image_id": "Half Flat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Half_Flat_Pinches_grip_large.jpg?v=1571438531"
         },
         {
-            "image_id": "ke-feet-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC08183_300x300.jpg?v=1552245457"
+            "image_id": "Tekbots",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Tekbotsgrips_large.jpg?v=1651591322"
         },
         {
-            "image_id": "mohawks-feet-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04827_300x300.jpg?v=1556307178"
+            "image_id": "Skinny Mini Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SMP_large.jpg?v=1662404447"
         },
         {
-            "image_id": "feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03932_300x300.jpg?v=1552244945"
+            "image_id": "Fat Pinches Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_pinches_a1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "mples-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03951_300x300.jpg?v=1552245011"
+            "image_id": "Fat Pinches Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_pinches_b1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "mohawk-feet-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03939_300x300.jpg?v=1552245080"
+            "image_id": "Fat Pinches Set 3",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_pinches_c1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "fish-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04811_300x300.jpg?v=1556307378"
+            "image_id": "Fat Pinches Set 4",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat_pinches_d1_d5ac27fe-fb56-4e2f-aaa7-174a50a1b8bf_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "winkle-toes-feet-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04815_300x300.jpg?v=1556307427"
+            "image_id": "Skinny Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SKPgrips_large.jpg?v=1662498989"
         },
         {
-            "image_id": "feet-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04823_300x300.jpg?v=1556306956"
+            "image_id": "Mini Tites",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/mini-tites1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "winkle-toes-feet-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04824_300x300.jpg?v=1556307459"
+            "image_id": "Husky Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Husky_Pinches_large.jpg?v=1571438529"
         },
         {
-            "image_id": "winkle-toes-feet-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC04818_300x300.jpg?v=1556307480"
+            "image_id": "Flat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Flat_Pinches_large.jpg?v=1571438531"
         },
         {
-            "image_id": "winkle-toes-feet-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/DSC03935_300x300.jpg?v=1552245178"
+            "image_id": "Geobots",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GOB_large.jpg?v=1658183341"
         },
         {
-            "image_id": "jugs-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set10_300x300.png?v=1580668139"
+            "image_id": "Short Pinchi Pinches 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SPP1_large.jpg?v=1675965073"
         },
         {
-            "image_id": "xl-torso-jugs",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set12_300x300.png?v=1581290910"
+            "image_id": "Short Pinchi Pinches 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SPP2grips_large.jpg?v=1675978344"
         },
         {
-            "image_id": "jugs-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set2_300x300.png?v=1581291077"
+            "image_id": "Blade Runners",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BRgrips_large.jpg?v=1650813796"
         },
         {
-            "image_id": "jugs-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set6_300x300.png?v=1581291374"
+            "image_id": "Fatty Fat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fatty_fat_pinches1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "jugs-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set8_300x300.png?v=1581291465"
+            "image_id": "Big Pinched Muscles",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/BigPinchedMuscles-Edit1_large.jpg?v=1716067425"
         },
         {
-            "image_id": "jugs-extra-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Menagerie-set7_300x300.png?v=1581291649"
+            "image_id": "Hefty Husky Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Hefty_Husky_Pinches_large.jpg?v=1571438529"
         },
         {
-            "image_id": "blockade-volumes-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1802-2_300x300.jpg?v=1582157988"
+            "image_id": "Trim Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/TrimPinches_large.jpg?v=1604253744"
         },
         {
-            "image_id": "blockade-volumes-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1804-2_300x300.jpg?v=1582159046"
+            "image_id": "Geomatics set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GeoM_set_1_grips_large.jpg?v=1571438530"
         },
         {
-            "image_id": "host-slopers-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_2xl_GhostSlopers1_3_300x300.jpg?v=1582159595"
+            "image_id": "Geomatics set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GM2_grips_large.jpg?v=1571438530"
         },
         {
-            "image_id": "host-slopers-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_3Xl_GhostSlopers1_Merged_300x300.jpg?v=1582161039"
+            "image_id": "Geotites",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GOTgrips_large.jpg?v=1658183406"
         },
         {
-            "image_id": "host-slopers-xl2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_XL_GhostSlopers1_4_300x300.jpg?v=1582229144"
+            "image_id": "Pinchi Pinches 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/PP1_large.jpg?v=1675975409"
         },
         {
-            "image_id": "host-slopers-l2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_LG_GhostSlopers2_8_300x300.jpg?v=1582229729"
+            "image_id": "Pinchi Pinches 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/PP2grips_large.jpg?v=1675978356"
         },
         {
-            "image_id": "host-slopers-l1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_LG_GhostSlopers1_5_300x300.jpg?v=1582230645"
+            "image_id": "Long Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/long_pinches1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "host-slopers-m2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_MED_GhostSlopers2_2_300x300.jpg?v=1582231076"
+            "image_id": "Fatty Long Fat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fatty-long-fats1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "host-slopers-m1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_MED_GhostSlopers1_4_300x300.jpg?v=1582231468"
+            "image_id": "Big Husky Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BHP_large.jpg?v=1578508602"
         },
         {
-            "image_id": "host-slopers",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/2019_MEN_SM_GhostSlopers_7_300x300.jpg?v=1582231901"
+            "image_id": "Tall Pinchi Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/TPP_large.jpg?v=1678801001"
         },
         {
-            "image_id": "mini-mees-s",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1702-2_300x300.jpg?v=1582233961"
+            "image_id": "Curvy Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Curvy_Pinches_896205c2-92c9-4156-9a24-c425bebb03ce_large.jpg?v=1571438531"
         },
         {
-            "image_id": "mini-mees-m",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1703-4_300x300.jpg?v=1582233608"
+            "image_id": "Longy Long Fat Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LLFP_large.jpg?v=1571438532"
         },
         {
-            "image_id": "mini-mees-l",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1704-1_300x300.jpg?v=1582234064"
+            "image_id": "Big Tall Husky Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Big_Tall_Husky_Pinches_large.jpg?v=1571438529"
         },
         {
-            "image_id": "host-jugs-4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1909-3_300x300.jpg?v=1582235043"
+            "image_id": "Long Tall Pinchi Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/LTPPgrip2_large.jpg?v=1692892262"
         },
         {
-            "image_id": "host-jugs-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1908-1_300x300.jpg?v=1582237560"
+            "image_id": "Longy Long Tall Pinchi Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LLTP_large.jpg?v=1675976607"
         },
         {
-            "image_id": "host-jugs-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1907-1_300x300.jpg?v=1582237953"
+            "image_id": "Overly Pinchi Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/OLPP_large.jpg?v=1687278761"
         },
         {
-            "image_id": "host-jugs-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1906-1_300x300.jpg?v=1582238473"
+            "image_id": "Micro Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Micro_Round_Slopers_large.jpg?v=1571438529"
         },
         {
-            "image_id": "host-jugs-l",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1905-1_300x300.jpg?v=1582239031"
+            "image_id": "Mini Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Mini_Round_Slopers_large.jpg?v=1571438529"
         },
         {
-            "image_id": "host-jugs-m2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1904B-1_300x300.jpg?v=1582251343"
+            "image_id": "Platinis",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Platinis_large.jpg?v=1662403550"
         },
         {
-            "image_id": "host-jugs-s1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1901A-1_300x300.jpg?v=1582251803"
+            "image_id": "Mini Wrap Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Mini_Wrap_Round_Slopers_large.jpg?v=1571438529"
         },
         {
-            "image_id": "jugs-xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/torsojugs6xl22_300x300.jpg?v=1595091280"
+            "image_id": "Petite Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/PPL_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jugs-7xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/torsojugs7xl1_300x300.jpg?v=1595089672"
+            "image_id": "Short Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Short_Round_Slopers_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jugs-large-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/torsoJugslarge11_300x300.jpg?v=1595090649"
+            "image_id": "No Shadow Hands Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NSH1a_large.jpg?v=1571438527"
         },
         {
-            "image_id": "jowl-jugs-full-line-compx",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
+            "image_id": "No Shadow Hands Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NSH2_large.jpg?v=1571438531"
         },
         {
-            "image_id": "jowl-jugs-l1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Large_1_f669ffaf-d9a4-4fa7-b3f7-25f9f41bcb29_300x300.jpg?v=1582398730"
+            "image_id": "Wrap Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Wrap_Round_Slopers_web_large.jpg?v=1571438531"
         },
         {
-            "image_id": "jowl-jugs-l2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Jowl_Jugs_Large_2_a093c9ee-d904-4eb8-a7ab-2c3675dbe376_300x300.jpg?v=1582399463"
+            "image_id": "Demi Low Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/dlpl_web_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jowl-jugs-4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/3Xcompx_300x300.jpg?v=1595700255"
+            "image_id": "Low Fat Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LFS_large.jpg?v=1658261841"
         },
         {
-            "image_id": "jowl-jugs-5xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/5_X_744f93b1-1bd9-4dfd-a0c1-cda47266b8b7_300x300.jpg?v=1582414326"
+            "image_id": "Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Round_Slopers_large.jpg?v=1571438529"
         },
         {
-            "image_id": "jowl-jugs-6xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/6_X_de2c82cf-7cbb-4af8-8252-5bd71ede3242_300x300.jpg?v=1582415185"
+            "image_id": "Half Fat Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/HFS_large.jpg?v=1658264992"
         },
         {
-            "image_id": "jowl-jugs-7xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/7_X_ee56401c-6d70-4f1b-a16b-8dcd9874a7f8_300x300.jpg?v=1582415735"
+            "image_id": "Hard Math",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/hard-math_a1_5ed8b0f7-9e5a-45cf-9c49-f4f630f90f86_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "y-of-feet-pancake-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/pancakefeet3_300x300.jpg?v=1595088316"
+            "image_id": "Muscles",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Muscles_large.jpg?v=1571438529"
         },
         {
-            "image_id": "feet-bump",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/bumpfeet_300x300.jpg?v=1595091421"
+            "image_id": "Tall Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Tall_Round_Slopers_large.jpg?v=1571438530"
         },
         {
-            "image_id": "bblers-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblers2xl_300x300.jpg?v=1595087770"
+            "image_id": "Demi Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/dpl_web_large.jpg?v=1571438530"
         },
         {
-            "image_id": "y-of-nibblers-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblersxl_300x300.jpg?v=1595087886"
+            "image_id": "Half Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/hpl_web_large.jpg?v=1571438530"
         },
         {
-            "image_id": "bblers-l",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblersl_300x300.jpg?v=1595087975"
+            "image_id": "Curled Slopers set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/cs1_5cc6e067-fca6-49cf-a9bf-5ba721c91b08_large.jpg?v=1678829931"
         },
         {
-            "image_id": "bblers-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblersm_300x300.jpg?v=1595088029"
+            "image_id": "Curled Slopers set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/CS2_large.jpg?v=1571438530"
         },
         {
-            "image_id": "bblers-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblerss_300x300.jpg?v=1595088141"
+            "image_id": "Mysticals",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/mysticals1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "bblers-extra-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/nibblerXS_300x300.jpg?v=1595088187"
+            "image_id": "Francos Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/francos_a1_35065de6-0c0d-44ef-bd4c-6819dfbce659_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "macro-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Mf02-01Torso1_1_300x300.jpg?v=1592524870"
+            "image_id": "Francos Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/francos_b1_large.jpg?v=1571438528"
         },
         {
-            "image_id": "macro-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MF2-02Torso2_300x300.jpg?v=1592525057"
+            "image_id": "Mathematics",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/mathematics_b1_fd9ebba2-bc67-487b-a24b-6a8e7c1a8d28_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "macro-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MF2-03Torso3_1_300x300.jpg?v=1592525224"
+            "image_id": "Low Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LPL_large.jpg?v=1571438530"
         },
         {
-            "image_id": "macro-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MF2-04Torso4_1_300x300.jpg?v=1592525399"
+            "image_id": "No Shadow Two Hands",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NSTH1_large.jpg?v=1571438531"
         },
         {
-            "image_id": "macro-5",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MF02-05Torso5_300x300.jpg?v=1592525593"
+            "image_id": "Big Curled Slopers set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BCS1_large.jpg?v=1571438530"
         },
         {
-            "image_id": "macro-6",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MF2-06Torso6_300x300.jpg?v=1592525693"
+            "image_id": "Big Curled Slopers set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BCS2_large.jpg?v=1571438530"
         },
         {
-            "image_id": "voidbringer-macro-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MGB33-01-Barrow1_300x300.jpg?v=1592526018"
+            "image_id": "Fat Slopers Set 1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat-slopers_a2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "voidbringer-macro-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MGB33-02-Barrow2_300x300.jpg?v=1592526212"
+            "image_id": "Fat Slopers Set 2",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/fat-slopers_b2_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "voidbringer-macro-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MGB33-03-Barrow3_300x300.jpg?v=1592526362"
+            "image_id": "S Series",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SSR_grip_large.jpg?v=1571438531"
         },
         {
-            "image_id": "voidbringer-macro-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MGB33-04-Barrow4_bff1a8ec-ecfa-4b6d-87b0-7039f06aa152_300x300.jpg?v=1592526453"
+            "image_id": "Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/PL_large.jpg?v=1571438530"
         },
         {
-            "image_id": "voidbringer-macro-5",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MGB33-05-Barrow5_300x300.jpg?v=1592526765"
+            "image_id": "Big Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Big_Round_Slopers_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jugs-3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
+            "image_id": "Big Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/bpl_web_large.jpg?v=1571438530"
         },
         {
-            "image_id": "jugs-5xl",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
+            "image_id": "R Series",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RSR_large.jpg?v=1571438531"
         },
         {
-            "image_id": "mothership-macro-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-01Mothership1web_300x300.jpg?v=1595098052"
+            "image_id": "Arithmetics",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/AR_grip_large.jpg?v=1571438531"
         },
         {
-            "image_id": "mothership-macro-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-02Mothership2web_300x300.jpg?v=1595098419"
+            "image_id": "Problematics",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/problematics1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "mothership-macro-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-03Mothership3web_300x300.jpg?v=1595098515"
+            "image_id": "Big Fat Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/big_fat_slopers1_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "mothership-macro-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-04Mothership4web_300x300.jpg?v=1595098597"
+            "image_id": "GT Series",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GTSeries_large.jpg?v=1659979527"
         },
         {
-            "image_id": "mothership-macro-5",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-05Mothership5web_300x300.jpg?v=1595098649"
+            "image_id": "Big Tall Round Slopers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Big_Tall_Round_Slopers_large.jpg?v=1571438530"
         },
         {
-            "image_id": "mothership-macro-6",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF01-06Mothership6web_300x300.jpg?v=1595098777"
+            "image_id": "Over Plats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/OPLa_large.jpg?v=1642887636"
         },
         {
-            "image_id": "yer-macro-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF02-01StarDestroyer1web_300x300.jpg?v=1595098877"
+            "image_id": "Gigantiplats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GGPLa_large.jpg?v=1642888998"
         },
         {
-            "image_id": "yer-macro-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF02-02StarDestroyer2web_300x300.jpg?v=1595099037"
+            "image_id": "Sneakers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/sneakers2_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "yer-macro-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF02-03Stardestroyer3web_300x300.jpg?v=1595099123"
+            "image_id": "Tabi",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/tabi1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "yer-macro-4",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF02-04StarDestroyer4web_300x300.jpg?v=1595099194"
+            "image_id": "Runners",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/runners1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "yer-macro-5",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FF02-05StarDestroyer5web_300x300.jpg?v=1595099234"
+            "image_id": "Spikes",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/spikes2_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "hnut-holes-us",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/doughnutholesproxy_300x300.jpg?v=1595100547"
+            "image_id": "Loafers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/loafers1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2001-3-800x800_300x300.jpg?v=1595101022"
+            "image_id": "Insteps",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Insteps_large.jpg?v=1571438531"
         },
         {
-            "image_id": "mestone-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1308-3-800x800_300x300.jpg?v=1596904995"
+            "image_id": "No Shadow Feet",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/NSF1copy_large.jpg?v=1715807751"
         },
         {
-            "image_id": "w-ons",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0101-3-800x800_300x300.jpg?v=1596069879"
+            "image_id": "Numericals",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/numericals1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "mall",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0102-3-800x800_300x300.jpg?v=1596069934"
+            "image_id": "Slippers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SL_large.jpg?v=1571438531"
         },
         {
-            "image_id": "medium1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0103-2-800x800_300x300.jpg?v=1600013481"
+            "image_id": "Overspikes",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Overpikesgrips_large.jpg?v=1611601348"
         },
         {
-            "image_id": "medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0104-4-800x800_300x300.jpg?v=1596670987"
+            "image_id": "Boots",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/files/Bootsgrips_large.jpg?v=1715030027"
         },
         {
-            "image_id": "",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0105-3-800x800_300x300.jpg?v=1596069742"
+            "image_id": "Screw-on Tiny Feet",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/SOTFgrips_large.jpg?v=1647036326"
         },
         {
-            "image_id": "xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0106-4-800x800_300x300.jpg?v=1596671089"
+            "image_id": "GeoShardlingers",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GSLR_large.jpg?v=1571438531"
         },
         {
-            "image_id": "2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0107-4-800x800_300x300.jpg?v=1600012640"
+            "image_id": "No Shadow Tip Toes",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NSTT_5fb01de4-77e9-4724-b457-6cdb2babef9b_large.jpg?v=1647036193"
         },
         {
-            "image_id": "broadswords",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0201-2-800x800_300x300.jpg?v=1596068745"
+            "image_id": "Screw-on Hard",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/screw-ons-hard1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "broadswords-s",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0202-2-800x800_300x300.jpg?v=1596068612"
+            "image_id": "Screw-on Incut",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/screw-ons-incut1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "broadswords-small-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0203-2-800x800_300x300.jpg?v=1596068677"
+            "image_id": "GeoShardlings",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GSDL_grips_large.jpg?v=1571438531"
         },
         {
-            "image_id": "broadswords-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0204-2-800x800_300x300.jpg?v=1596068488"
+            "image_id": "Flaps",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/screw-ons-flaps1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "mooth-criminals-xs",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0301-1-800x800_300x300.jpg?v=1596069614"
+            "image_id": "No Shadow Fingertips",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NSFT_large.jpg?v=1667871107"
         },
         {
-            "image_id": "mooth-criminals-small",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0302-4-800x800_300x300.jpg?v=1596670813"
+            "image_id": "GeoShards",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GSHD_large.jpg?v=1571438531"
         },
         {
-            "image_id": "mooth-criminals-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0303-4-800x800_300x300.jpg?v=1596670892"
+            "image_id": "GeoStrats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GeoStrat_grip_large.jpg?v=1571438530"
         },
         {
-            "image_id": "mooth-criminals-medium-3",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0304-2-800x800_300x300.jpg?v=1596069525"
+            "image_id": "GeoPlats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GeoPlat_large.jpg?v=1571438530"
         },
         {
-            "image_id": "mooth-criminals-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0305-4-800x800_300x300.jpg?v=1596670726"
+            "image_id": "GeoFlats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GeoFlat_grip_large.jpg?v=1571438530"
         },
         {
-            "image_id": "xs",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0401-4-800x800_300x300.jpg?v=1596069299"
+            "image_id": "GeoMats",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/GeoMat_large.jpg?v=1571438530"
         },
         {
-            "image_id": "mall",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0402-2-800x800_300x300.jpg?v=1596069129"
+            "image_id": "Teknik Logo",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/teknik-logo1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "funky-triangle",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MW-306-1500-060-WM_FunkyTriangleweb_300x300.jpg?v=1595114462"
+            "image_id": "Mothh",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/mothh1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "he-not-square",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MW-404-0600-060-WM_NotASquareweb_300x300.jpg?v=1595114807"
+            "image_id": "Ze Fang",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/ze-fang1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "he",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MW-402-1200-060-WM_ThePendant1200web_300x300.jpg?v=1595114969"
+            "image_id": "Papillon",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/papillon1_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "he-squeeze",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/MW-401-1500-070-H_-MI_withmirrorvolumeTheSqueezeweb_300x300.jpg?v=1595115351"
+            "image_id": "De Blocs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/deblocs1_large.jpeg?v=1571438526"
         },
         {
-            "image_id": "mall",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m801-1-800x800_300x300.jpg?v=1595692992"
+            "image_id": "Arnold Muscle",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Arnold_1b_large.jpg?v=1571438525"
         },
-        {
-            "image_id": "feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2003-2_300x300.jpg?v=1595693182"
-        },
-        {
-            "image_id": "mall-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0403-4-800x800_300x300.jpg?v=1596069233"
-        },
-        {
-            "image_id": "medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0404-2-800x800_300x300.jpg?v=1596069060"
-        },
-        {
-            "image_id": "",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-F0405-1-800x800_300x300.jpg?v=1596068952"
-        },
-        {
-            "image_id": "hicklets-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0600-2-800x800_300x300.jpg?v=1596068818"
-        },
-        {
-            "image_id": "hicklets-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0602-1-800x800_300x300.jpg?v=1596068878"
-        },
-        {
-            "image_id": "k-shoes",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0501-4-800x800_300x300.jpg?v=1596069403"
-        },
-        {
-            "image_id": "mall-patches",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0502-3-300x300_300x300.jpg?v=1596670631"
-        },
-        {
-            "image_id": "w-ledge-flat-1000-handhold-1000mm",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/ArrowLedgeFlat1000HandholdVolume_side2_web_300x300.jpg?v=1595698050"
-        },
-        {
-            "image_id": "y-of-arrow-ledge-slope-1000-handhold-1000mm",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/ArrowLedgeSlope1500HandholdVolume_sideweb_300x300.jpg?v=1595698335"
-        },
-        {
-            "image_id": "boomerang-1800mm",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Boomerang1800WallModifierVolume_side1_web_300x300.jpg?v=1595698835"
-        },
-        {
-            "image_id": "1800mm",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Dagger1800WallModifierVolume_side1_web_300x300.jpg?v=1595698962"
-        },
-        {
-            "image_id": "badge-1200mm",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/Badge1800_WallModifierVolume_side1_web_300x300.jpg?v=1595699062"
-        },
-        {
-            "image_id": "1500",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/SloperLedge1500HandholdVolume_side1_web_300x300.jpg?v=1595699180"
-        },
-        {
-            "image_id": "jug-ledge-1500",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/JugLedge1500HandholdVolume_side1_web_300x300.jpg?v=1595699421"
-        },
-        {
-            "image_id": "flat-ledge-1500",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/FlatLedge1500HandholdVolume_side1_web_300x300.jpg?v=1595699587"
-        },
-        {
-            "image_id": "jowl-jugs-4xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/4Xcompx_300x300.jpg?v=1595700341"
-        },
-        {
-            "image_id": "hicklets-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-f0603-2-800x800_300x300.jpg?v=1596903610"
-        },
-        {
-            "image_id": "hicklets-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0604-3-800x800_300x300.jpg?v=1604162777"
-        },
-        {
-            "image_id": "3d-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2201-2-800x800_300x300.jpg?v=1596905180"
-        },
-        {
-            "image_id": "blets-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2102-2-800x800_300x300.jpg?v=1596905978"
-        },
-        {
-            "image_id": "humps-small",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
-        },
-        {
-            "image_id": "bulwhark-feet",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2001-2-800x800_300x300.jpg?v=1596906428"
-        },
-        {
-            "image_id": "font-pinches-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2404-2-800x800_300x300.jpg?v=1600009678"
-        },
-        {
-            "image_id": "font-pinches-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2403-4-800x800_300x300.jpg?v=1599932712"
-        },
-        {
-            "image_id": "font-pinches-large",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2402-2-800x800_300x300.jpg?v=1600009763"
-        },
-        {
-            "image_id": "font-pinches-medium",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2401-2-800x800_300x300.jpg?v=1600009853"
-        },
-        {
-            "image_id": "font-slopers-2xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2306-2-800x800_300x300.jpg?v=1600009945"
-        },
-        {
-            "image_id": "font-slopers-xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2303-2-800x800_300x300.jpg?v=1600010025"
-        },
-        {
-            "image_id": "font-slopers-xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2305-2-800x800_300x300.jpg?v=1599932422"
-        },
-        {
-            "image_id": "font-slopers-large-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2304-2-800x800_300x300.jpg?v=1600010134"
-        },
-        {
-            "image_id": "font-slopers-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2302-1-800x800_300x300.jpg?v=1600010212"
-        },
-        {
-            "image_id": "font-slopers-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-M2301-2-800x800_300x300.jpg?v=1599932292"
-        },
-        {
-            "image_id": "3xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0108-2-800x800_300x300.jpg?v=1600012681"
-        },
-        {
-            "image_id": "4xl",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0109-4-800x800_300x300.jpg?v=1600012893"
-        },
-        {
-            "image_id": "big-patches-patches",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/formik-f0503-2-800x800_300x300.jpg?v=1604163038"
-        },
-        {
-            "image_id": "bulwark-screw-on-edges",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
-        },
-        {
-            "image_id": "y-of-bulwark-screw-on-edges",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2002-3-800x800_300x300.jpg?v=1604165017"
-        },
-        {
-            "image_id": "bulwark-edges-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2003-3-800x800_300x300.jpg?v=1604164226"
-        },
-        {
-            "image_id": "bulwark-edges-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2004-4-800x800_300x300.jpg?v=1604164589"
-        },
-        {
-            "image_id": "bulwark-edges-large-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2005-4-800x800_300x300.jpg?v=1604164909"
-        },
-        {
-            "image_id": "bulwark-edges-xl-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2006-4-800x800_300x300.jpg?v=1604165255"
-        },
-        {
-            "image_id": "jugs-small",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
-        },
-        {
-            "image_id": "jugs-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shopifycloud/shopify/assets/no-image-2048-5e88c1b20e087fb7bbe9a3771824e743c244f437e4f8ba93bbf7b11b53f7824c_300x300.gif"
-        },
-        {
-            "image_id": "jugs-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m2503-4-800x800_300x300.jpg?v=1604165736"
-        },
-        {
-            "image_id": "mestone-jugs-small-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1901-3-800x800_300x300.jpg?v=1604166175"
-        },
-        {
-            "image_id": "mestone-jugs-medium-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1902-1-800x800_300x300.jpg?v=1604166385"
-        },
-        {
-            "image_id": "mestone-jugs-medium-2",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1903-2-800x800_300x300.jpg?v=1604166752"
-        },
-        {
-            "image_id": "mestone-jugs-large-1",
-            "image_source": "https://menagerieclimb.com/cdn/shop/products/menag-m1904-2-800x800_300x300.jpg?v=1604167106"
-        }
-    ],
-    "decoy": [
-        {
-            "image_id": "foundation",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/FOUNDATION_MONTAGE_1_480x480.jpg?v=1641060435"
-        },
-        {
-            "image_id": "schist",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/schist_full_fam_1_480x480.jpg?v=1641060702"
-        },
-        {
-            "image_id": "rollies",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/rollies_full_fam_1_copy_480x480.jpg?v=1641061222"
-        },
-        {
-            "image_id": "pacos",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/pacos_18x12_full_fam_2_480x480.jpg?v=1641061593"
-        },
-        {
-            "image_id": "incuts",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/EX_5_INS_480x480.jpg?v=1641063938"
-        },
-        {
-            "image_id": "flats",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/EXP7_FLATS_480x480.jpg?v=1641064449"
-        },
-        {
-            "image_id": "8X12 LIME",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/board_lime_1_copy_480x480.jpg?v=1681222966"
-        },
-        {
-            "image_id": "lime feet",
-            "image_source": "https://cdn.shopify.com/s/files/1/1362/3721/files/limestone_feet_2_480x480.jpg?v=1681223813"
-        }
-    ],
-    "tension": [
-        {
-            "image_id": "30779727118517",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Home-Wall-1-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727151285",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Home-Wall-2-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727184053",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Large-Pack-1-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727216821",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Large-Pack-2-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727249589",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Medium-Pack-1-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727282357",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Medium-Pack-2-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727315125",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Small-Pack-1-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727347893",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Small-Pack-2-scaled.jpg?v=1724934114&width=5000"
-        },
-        {
-            "image_id": "30779727380661",
-            "image_source": "https://tensionclimbing.com/cdn/shop/files/Foot-set-scaled.jpg?v=1724934114&width=5000"
-        }
-    ],
-    "moon": [
         {
-            "image_id": "product-3409",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/2/0/2016-holdset-bundle.jpg"
+            "image_id": "Pinchtite",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/pinchtite1_large.jpeg?v=1571438527"
         },
         {
-            "image_id": "product-3410",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/2/0/2017-holdset-inc-footholds.jpg"
+            "image_id": "Bloctite",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/bloctite1_large.jpeg?v=1571438525"
         },
         {
-            "image_id": "product-3411",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/2/0/2019-holdset-inc-footholds.jpg"
+            "image_id": "Talons",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/talons2_large.jpeg?v=1571438528"
         },
         {
-            "image_id": "product-3412",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/2/0/2024-holdset-bundle.jpg"
+            "image_id": "Horizon Lines",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/HLgrips1_large.jpg?v=1599413979"
         },
         {
-            "image_id": "product-3413",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/m/i/mini-moonboard-holdset-bundle.jpg"
+            "image_id": "Les Amis",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/LesAmis_large.jpg?v=1650405262"
         },
         {
-            "image_id": "product-3655",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/m/i/mini-moonboard-2025-holdset-bundle.png"
+            "image_id": "NKR1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/NKR1_large.jpg?v=1650408139"
         },
         {
-            "image_id": "product-332",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/o/r/original-school-holds.jpg"
+            "image_id": "Ribbons",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/RB_large.jpg?v=1667872546"
         },
         {
-            "image_id": "product-333",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/s/c/school-holds-set-a.jpg"
+            "image_id": "Fancy Ribbons",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/FRB_large.jpg?v=1667926032"
         },
         {
-            "image_id": "product-334",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/s/c/school-holds-set-b.jpg"
+            "image_id": "Fanciful Ribbons",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/FFRB_large.jpg?v=1667926474"
         },
         {
-            "image_id": "product-793",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/m/o/moonboard-school-holds-set-c.jpg"
+            "image_id": "Twin Fangs",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/twinfangsgrips_large.jpg?v=1604254151"
         },
         {
-            "image_id": "product-3239",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/6/0/60-121-04-277_set_d_group_1.jpg"
+            "image_id": "Binomials",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/BN_large.jpg?v=1571438531"
         },
         {
-            "image_id": "product-3240",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/6/0/60-121-05-277_set_e_group.jpg"
+            "image_id": "F1",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/F1top_large.jpg?v=1637698958"
         },
         {
-            "image_id": "product-3241",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/6/0/60-121-06-277_set_f_group.jpg"
+            "image_id": "Finite Line",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/FNL_large.jpg?v=1599413886"
         },
         {
-            "image_id": "product-794",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/1/0/1000x1000-woodholdsseta.jpg"
+            "image_id": "Unnecessarily Large Pinches",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/ULP_large.jpg?v=1656453802"
         },
         {
-            "image_id": "product-1619",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/w/o/wood-holds-set-b-moonboard-min.jpg"
+            "image_id": "Hulk",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Hulkcopy_large.jpg?v=1642705077"
         },
         {
-            "image_id": "product-1620",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/w/o/wood-holds-set-c-moonboard-min.jpg"
+            "image_id": "Standing Wave",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/standing_wave1_large.jpg?v=1571438531"
         },
         {
-            "image_id": "product-3414",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/m/o/moonboard-footholds_1.jpg"
+            "image_id": "Berg",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Berg_96ff94e2-3dab-4b35-a4e8-09913993844d_large.jpg?v=1571438531"
         },
         {
-            "image_id": "product-851",
-            "image_source": "https://moonclimbing.com/cdn-cgi/image/f=auto/media/catalog/product/cache/2302b4c23065295852d1fc4cc0a1f873/m/o/moonboard_s_o_footholds.jpeg"
+            "image_id": "Zip Grip Starter",
+            "image_source": "https://www.teknikhandholds.com/cdn/shop/products/Zip_Grip_Starter_large.jpg?v=1571438530"
         }
     ]
 }

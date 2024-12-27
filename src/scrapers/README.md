@@ -4,23 +4,23 @@ Results scraped to [`generated_log`](./../generated_log/).
 
 ## [Climbing holds](./holds.py)
 
+* https://tensionclimbing.com/products/wooden-hold-packs
+* https://moonclimbing.com/moonboard/holds-and-bolts.html
 * https://www.atomikclimbingholds.com/bulk-packs-2
 * https://menagerieclimb.com/collections/all-grips
 * https://decoy-holds.com/pages/8x12-board-sets
-* https://tensionclimbing.com/products/wooden-hold-packs
+* https://www.teknikhandholds.com/pages/holds
 
-* https://moonclimbing.com/moonboard/holds-and-bolts.html
-* https://www.artline-holds.com/en/
-* https://www.metoliusclimbing.com/climbing_holds.html
 * https://trango.com/collections/holds
-* https://soillholds.com/collections/holds-volumes-macros-hangboards
 * https://pusher.world/product-category/classic/
 * https://pusher.world/product-category/board-holds/
 * https://pusher.world/product-category/joes-valley/
 * https://pusher.world/product-category/woodie/
-* https://www.teknikhandholds.com/pages/holds
 
 * https://settercloset.com/collections/all-grips
+* https://www.artline-holds.com/en/
+* https://www.metoliusclimbing.com/climbing_holds.html
+* https://soillholds.com/collections/holds-volumes-macros-hangboards
 
 ## [Climbing boards](./boards.py)
 
