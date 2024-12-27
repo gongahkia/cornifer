@@ -3,7 +3,7 @@ from playwright.sync_api import sync_playwright
 
 
 def scrape_atomik(
-    site_identifier="atomik",
+    site_identifier="atomik_holds",
     target_url="https://www.atomikclimbingholds.com/bulk-packs-2",
 ):
     """
@@ -47,7 +47,7 @@ def scrape_atomik(
 
 
 def scrape_menagerie(
-    site_identifier="menagerie",
+    site_identifier="menagerie_holds",
     target_url="https://menagerieclimb.com/collections/all-grips",
 ):
     """
@@ -102,7 +102,8 @@ def scrape_menagerie(
 
 
 def scrape_decoy(
-    site_identifier="decoy", target_url="https://decoy-holds.com/pages/8x12-board-sets"
+    site_identifier="decoy_holds",
+    target_url="https://decoy-holds.com/pages/8x12-board-sets",
 ):
     """
     scrapes product images from the decoy website
@@ -149,7 +150,7 @@ def scrape_decoy(
 
 
 def scrape_setter_closet(
-    site_identifier="setter_closet",
+    site_identifier="setter_closet_holds",
     target_url="https://settercloset.com/collections/all-grips",
 ):
     """
@@ -198,7 +199,7 @@ def scrape_setter_closet(
 
 
 def scrape_tension(
-    site_identifier="tension",
+    site_identifier="tension_holds",
     target_url="https://tensionclimbing.com/products/wooden-hold-packs",
 ):
     """
@@ -235,7 +236,7 @@ def scrape_tension(
 
 
 def scrape_moon(
-    site_identifier="moon",
+    site_identifier="moon_holds",
     target_url="https://moonclimbing.com/moonboard/holds-and-bolts.html",
 ):
     """
@@ -275,7 +276,7 @@ def scrape_moon(
 
 
 def scrape_artline(
-    site_identifier="artline",
+    site_identifier="artline_holds",
     target_url="https://www.artline-holds.com/en/products/holds-macros/",
 ):
     """
@@ -314,7 +315,7 @@ def scrape_artline(
 
 
 def scrape_teknik_handholds(
-    site_identifier="teknik_handholds",
+    site_identifier="teknik_handholds_holds",
     target_url_array=[
         "https://www.teknikhandholds.com/collections/jugs",
         "https://www.teknikhandholds.com/collections/edges",
@@ -358,7 +359,7 @@ def scrape_teknik_handholds(
 
 
 def scrape_pusher(
-    site_identifier="pusher",
+    site_identifier="pusher_holds",
     target_url_array=[
         "https://pusher.world/product-category/classic/",
         "https://pusher.world/product-category/board-holds/",
