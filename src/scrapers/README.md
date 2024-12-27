@@ -1,6 +1,8 @@
 # Scrapers
 
-## Climbing holds
+Results scraped to [`generated_log`](./../generated_log/).
+
+## [Climbing holds](./holds.py)
 
 * https://www.atomikclimbingholds.com/bulk-packs-2
 * https://www.teknikhandholds.com/pages/holds
@@ -19,7 +21,7 @@
 * https://pusher.world/product-category/joes-valley/
 * https://pusher.world/product-category/woodie/
 
-## Climbing boards
+## [Climbing boards](./boards.py)
 
 * https://moonclimbing.com/moonboard/kits-and-packages.html
 * https://tensionclimbing.com/products/tension-board-2
