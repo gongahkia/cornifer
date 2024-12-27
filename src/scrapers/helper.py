@@ -3,6 +3,7 @@ import json
 import hmac
 import hashlib
 import base64
+import urllib.request
 from cryptography.fernet import Fernet
 
 
@@ -93,3 +94,17 @@ def decrypt_json(target_filepath, salt_phrase):
     with open(target_filepath, "w") as f:
         json.dump(json.loads(decrypted_data.decode()), f, indent=4)
     return target_filepath
+
+
+def download_image(image_url, target_filepath):
+    """
+    downloads an image from the specified url and saves it to the specified file path
+    """
+    try:
+        directory = os.path.dirname(target_filepath)
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+        urllib.request.urlretrieve(image_url, target_filepath)
+        print(f"Success: Image downloaded successfully and saved to {target_filepath}")
+    except Exception as e:
+        print(f"Error: Unable to download image: {e}")
