@@ -10,7 +10,34 @@ Okay but what if Stōkt had a telegram bot.
 
 ## Architecture
 
-> TODO
+```mermaid
+graph TD;
+    subgraph "Data preparation"
+        V([Internet]) -->|Scraped| W[Web scrapers] 
+        W --> Data@{shape: docs, label: "Raw Image<br>Data"}
+        Data -->|Sanitised| Formatted@{ shape: tag-doc, label: "Formatted Image<br>Data"}
+        Formatted --> |Stored| A[(Raw Image<br>corpus)]
+        Formatted --> |Indexed and stored| B[(Labelled Image<br>Corpus)]
+    end
+    A --> D[Image Processing Module]
+    D --> |Preprocessing| E[OpenCV]
+    E -->|Shape detection| F[(Processed Hold <br>shapes corpus)]
+        F -->|Sent to| G[Problem setting module]
+        F -->|Sent to| L[Problem selection module]
+
+    subgraph "Frontend"
+        G -->|Updates| L
+        M@{ shape: circle, label: "User" } --> |Accesses| K
+        K[Frontend Interface]-->|View all problems|L
+        K --> |View sorted problems| Y
+        K --> |Select holds|G
+    end
+    B -->|Provide training data| H[Generic ML Model]
+    F -->|Provide training data| H
+    H -->|Trained on data| I[Style Recognition Model]
+    I --> |Runs classification| L
+    L --> |Classify climbing problems based on style| Y[Sorted problems module]
+```
 
 ## Usage
 
