@@ -1,7 +1,8 @@
 import os
 import json
-import hashlib
 import hmac
+import hashlib
+import base64
 from cryptography.fernet import Fernet
 
 
@@ -44,6 +45,15 @@ def write_json(data, target_filepath):
         return False
 
 
+def generate_fernet_key(salt_phrase):
+    """
+    generates a fernet key from the given salt phrase
+    """
+    key = hashlib.sha256(salt_phrase.encode()).digest()
+    encoded_key = base64.urlsafe_b64encode(key).decode("utf-8")
+    return encoded_key
+
+
 def encrypt_json(target_filepath, salt_phrase):
     """
     encrypts a json file using fernet encryption
@@ -53,7 +63,7 @@ def encrypt_json(target_filepath, salt_phrase):
             data = json.load(f)
     except FileNotFoundError:
         raise FileNotFoundError(f"File not found: {target_filepath}")
-    key = hashlib.sha256(salt_phrase.encode()).digest()
+    key = generate_fernet_key(salt_phrase)
     f = Fernet(key)
     encrypted_data = f.encrypt(json.dumps(data).encode())
     encrypted_filepath = target_filepath + ".enc"
@@ -67,17 +77,19 @@ def decrypt_json(target_filepath, salt_phrase):
     decrypts a json file using fernet encryption
     """
     try:
-        with open(target_filepath, "rb") as f:
+        modified_target_filepath = f"{target_filepath}.enc"
+        with open(modified_target_filepath, "rb") as f:
             encrypted_data = f.read()
     except FileNotFoundError:
-        raise FileNotFoundError(f"Error: File not found: {target_filepath}")
-    key = hashlib.sha256(salt_phrase.encode()).digest()
+        raise FileNotFoundError(
+            f"ValueError: File not found: {modified_target_filepath}"
+        )
+    key = generate_fernet_key(salt_phrase)
     f = Fernet(key)
     try:
         decrypted_data = f.decrypt(encrypted_data)
-    except Exception as e:
-        raise ValueError(f"Error: Decryption failed: {e}")
-    decrypted_filepath = target_filepath[:-4]
-    with open(decrypted_filepath, "w") as f:
+    except cryptography.fernet.InvalidSignature as e:
+        raise ValueError(f"ValueError: Decryption failed: Invalid signature ({e})")
+    with open(target_filepath, "w") as f:
         json.dump(json.loads(decrypted_data.decode()), f, indent=4)
-    return decrypted_filepath
+    return target_filepath
