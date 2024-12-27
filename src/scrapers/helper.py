@@ -27,6 +27,23 @@ def delete_file(target_filepath):
         return False
 
 
+def load_json(target_filepath):
+    """
+    load json data from a specified file to a dictionary
+    """
+    try:
+        with open(target_filepath, "r") as file:
+            data = json.load(file)
+        print(f"Success: JSON file at {target_filepath} succesfully read")
+        return (True, data)
+    except FileNotFoundError:
+        print("Error: The file was not found")
+        return (False, None)
+    except json.JSONDecodeError:
+        print("Error: Failed to decode JSON")
+        return (False, None)
+
+
 def write_json(data, target_filepath):
     """
     writes or appends dictionary data to a specified json file
@@ -108,3 +125,49 @@ def download_image(image_url, target_filepath):
         print(f"Success: Image downloaded successfully and saved to {target_filepath}")
     except Exception as e:
         print(f"Error: Unable to download image: {e}")
+
+
+def download_board_images_wrapper(boards_image_filepath, boards_log_filepath):
+    """
+    downloads all board images from json file
+    """
+    try:
+        board_map_tuple = load_json(boards_log_filepath)
+        if board_map_tuple[0]:
+            board_map = board_map_tuple[1]
+            [
+                download_image(
+                    board["image_source"],
+                    f"{boards_image_filepath}{board['image_id'].strip().replace(' ', '_')}.jpeg",
+                )
+                for board_array in board_map.values()
+                for board in board_array
+            ]
+            print("Success: Downloaded all board images")
+            return True
+    except:
+        print("Error: Unable to download all board images")
+        return False
+
+
+def download_holds_images_wrapper(holds_image_filepath, holds_log_filepath):
+    """
+    downloads all hold images from json file
+    """
+    try:
+        hold_map_tuple = load_json(holds_log_filepath)
+        if hold_map_tuple[0]:
+            hold_map = hold_map_tuple[1]
+            [
+                download_image(
+                    hold["image_source"],
+                    f"{holds_image_filepath}{hold['image_id'].strip().replace(' ', '_')}.jpeg",
+                )
+                for hold_array in hold_map.values()
+                for hold in hold_array
+            ]
+            print("Success: Downloaded all hold images")
+            return True
+    except:
+        print("Error: Unable to download all hold images")
+        return False

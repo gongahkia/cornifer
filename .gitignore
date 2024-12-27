@@ -1,3 +1,5 @@
 __pycache__
 boards_log.json
 holds_log.json
+boards_images/*.jpeg
+holds_images/*.jpeg
