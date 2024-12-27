@@ -194,3 +194,64 @@ def scrape_kilter(
         ]
     }
     return wrapper
+
+
+def scrape_decoy(
+    site_identifier="decoy_boards",
+    target_url_array=[
+        "https://decoy-holds.com/collections/decoy-board/products/decoy-board-8x10-cropped-without-light-kit",
+        "https://decoy-holds.com/collections/decoy-board/products/decoy-board-12x12-layout-without-lights",
+        "https://decoy-holds.com/collections/decoy-board/products/copy-of-decoy-board-8x12-complete-without-light-kit",
+    ],
+):
+    """
+    scrapes product images from decoy board website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        for url in target_url_array:
+            try:
+                page.goto(url)
+                print(f"Success: Retrieved page URL {url}")
+                page.wait_for_selector(
+                    "div.product__photo.slick-slide.slick-active img.productImg"
+                )
+                img_element = page.query_selector(
+                    "div.product__photo.slick-slide.slick-active img.productImg"
+                )
+                if img_element:
+                    image_source = img_element.get_attribute("src")
+                    image_id = img_element.get_attribute("data-image-id")
+                    product_image = {
+                        "image_id": image_id,
+                        "image_source": f"http:{image_source}",
+                    }
+                    product_array.append(product_image)
+            except Exception as e:
+                print(f"Error: Unable to process {url}: {e}")
+        browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper
+
+
+def scrape_boards_wrapper(target_log_filepath):
+    """
+    wrapper function that calls all working boards scrapers and writes the result to the specified filepath
+    """
+    try:
+        he.write_json(scrape_moon(), target_log_filepath)
+        he.write_json(scrape_tension(), target_log_filepath)
+        he.write_json(scrape_grasshopper(), target_log_filepath)
+        he.write_json(scrape_kilter(), target_log_filepath)
+        he.write_json(scrape_decoy(), target_log_filepath)
+        print("Success: All boards scrapers completed execution")
+        return True
+    except Exception as e:
+        print(
+            f"Error: Unable to run all scrapers and write to {target_log_filepath}: {e}"
+        )
+        return False

@@ -16,11 +16,7 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://moonclimbing.com/moonboard/kits-and-packages.html
 * https://tensionclimbing.com/products/tension-board-2
 * https://grasshopperclimbing.com/products/
-
 * https://settercloset.com/pages/kb-layouts
-* https://settercloset.com/products/kilter-board-fullride-complete
-* https://settercloset.com/products/kilter-board-original-complete
-* https://apps.apple.com/gb/app/woods-board/id1619846872
 * https://decoy-holds.com/pages/decoy-board
 
 ## Unscraped
@@ -31,3 +27,4 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://soillholds.com/collections/holds-volumes-macros-hangboards
 * https://trango.com/collections/holds
 * https://pusher.world/product-category/
+* https://apps.apple.com/gb/app/woods-board/id1619846872

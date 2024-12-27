@@ -1,7 +1,7 @@
 x (A) Write scrapers that scrape the climber hold maker websites for generic climbing hold images @dev @scraper
+x (A) Write scrapers that scrape the training board makers for training board images @dev @scraper
 x (A) Learn how OpenCV works by following along with a worked example +deploy @dev 
 
-(A) Write scrapers that scrape the training board makers for training board images @dev @scraper
 (A) Write helper function that automatically reads log.json and downloads the image at the specified URL to a local folder @dev @scraper
 (A) Try openCV for the climbing holds first @dev @opencv
 (A) Try openCV for the training boards after that @dev @opencv
@@ -10,6 +10,7 @@ x (A) Learn how OpenCV works by following along with a worked example +deploy @d
 (A) Add an architecture diagram in the README.md once the workflow is pretty much nailed down @dev @computer
 (A) Set up requirements.txt with all dependencies +deploy @dev @computer
 (A) Set up basic OpenCV environment and dependencies +setup @opencv @dev
+
 (A) Create hold detection prototype using basic shape recognition +detection @opencv @dev
 (A) Implement color-based hold segmentation +detection @opencv @computer
 (A) Create initial dataset structure for hold images +data @computer
