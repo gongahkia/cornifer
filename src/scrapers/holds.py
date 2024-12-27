@@ -121,13 +121,23 @@ def scrape_decoy(
             for item in center_items:
                 title_element = item.query_selector("a")
                 img_element = item.query_selector("img")
-                image_id = title_element.inner_text().strip() if title_element else None
-                image_source = img_element.get_attribute("src") if img_element else None
-                product_image = {
-                    "image_id": image_id,
-                    "image_source": image_source,
-                }
-                product_array.append(product_image)
+                if img_element and title_element:
+                    image_id = (
+                        title_element.get_attribute("title").strip()
+                        if title_element
+                        else None
+                    )
+                    image_source = (
+                        img_element.get_attribute("src").strip()
+                        if img_element
+                        else None
+                    )
+                    if image_id and image_source:
+                        product_image = {
+                            "image_id": image_id,
+                            "image_source": image_source,
+                        }
+                    product_array.append(product_image)
         except Exception as e:
             print(f"Error: Unable to process {target_url}: {e}")
         finally:
