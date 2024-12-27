@@ -1,5 +1,10 @@
+# ----- REQUIRED IMPORTS -----
+
 import json
+import helper as he
 from playwright.sync_api import sync_playwright
+
+# ----- HELPER FUNCTIONS -----
 
 
 def scrape_atomik(
@@ -400,3 +405,23 @@ def scrape_pusher(
         site_identifier: product_array,
     }
     return wrapper
+
+
+def scrape_holds_wrapper(target_log_filepath):
+    """
+    wrapper function that calls all working holds scrapers and writes the result to the specified filepath
+    """
+    try:
+        he.write_json(scrape_atomik(), target_log_filepath)
+        he.write_json(scrape_menagerie(), target_log_filepath)
+        he.write_json(scrape_decoy(), target_log_filepath)
+        he.write_json(scrape_tension(), target_log_filepath)
+        he.write_json(scrape_moon(), target_log_filepath)
+        he.write_json(scrape_teknik_handholds(), target_log_filepath)
+        print("Success: All holds scrapers completed execution")
+        return True
+    except Exception as e:
+        print(
+            f"Error: Unable to run all scrapers and write to {target_log_filepath}: {e}"
+        )
+        return False
