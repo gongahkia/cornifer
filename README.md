@@ -21,15 +21,14 @@ graph TD;
     end
     A --> D[Image Processing Module]
     D --> |Preprocessing| E[OpenCV]
-    E -->|Shape detection| F[(Processed Hold <br>shapes corpus)]
+    E -->|Shape detection| F[(Processed Holds<br>corpus)]
         F -->|Sent to| G[Problem setting module]
         F -->|Sent to| L[Problem selection module]
-
     subgraph "Frontend"
         G -->|Updates| L
         M@{ shape: circle, label: "User" } --> |Accesses| K
         K[Frontend Interface]-->|View all problems|L
-        K --> |View sorted problems| Y
+        K -----> |View sorted problems| Y
         K --> |Select holds|G
     end
     B -->|Provide training data| H[Generic ML Model]
