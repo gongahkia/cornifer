@@ -7,9 +7,12 @@ import boards as bo
 # ----- EXECUTION CODE -----
 
 if __name__ == "__main__":
-    LOG_FILEPATH = "./../generated_log/log.json"
-    he.delete_file(LOG_FILEPATH)
-    # ho.scrape_holds_wrapper(LOG_FILEPATH)
-    bo.scrape_boards_wrapper(LOG_FILEPATH)
-    he.encrypt_json(LOG_FILEPATH, "bouldering")
+    HOLDS_LOG_FILEPATH = "./../generated_log/holds_log.json"
+    BOARDS_LOG_FILEPATH = "./../generated_log/boards_log.json"
+    he.delete_file(HOLDS_LOG_FILEPATH)
+    he.delete_file(BOARDS_LOG_FILEPATH)
+    ho.scrape_holds_wrapper(HOLDS_LOG_FILEPATH)
+    bo.scrape_boards_wrapper(BOARDS_LOG_FILEPATH)
+    he.encrypt_json(HOLDS_LOG_FILEPATH, "bouldering")
+    he.encrypt_json(BOARDS_LOG_FILEPATH, "bouldering")
     # he.decrypt_json(LOG_FILEPATH, "bouldering")
