@@ -12,25 +12,25 @@ Okay but what if Stōkt had a telegram bot.
 
 ```mermaid
 graph TD;
-    V([Internet]) -->|Extracted| W@{ shape: subproc, label: "Web scrapers"}
+    V([Internet]) --> |Extracted| W[Web Scrapers]
     W --> |Scraped| Data@{shape: docs, label: "Raw Image<br>Data"}
-    Data -->|Sanitised| Formatted@{ shape: tag-doc, label: "Formatted Image<br>Data"}
+    Data --> |Sanitised| Formatted@{ shape: tag-doc, label: "Formatted Image<br>Data"}
     Formatted --> |Stored| A@{ shape: lin-cyl, label: "Raw Image<br>corpus" }
     Formatted --> |Indexed and stored| B@{ shape: lin-cyl, label: "Labelled Image<br>corpus" }
     A --> |Preprocessing| E[OpenCV]
-    E -->|Shape detection| F[(Processed Holds<br>corpus)]
-    F -->|Sent to| G@{ shape: lin-rect, label: "Problem setting module"}
-    F -->|Sent to| L@{ shape: lin-rect, label: "Problem selection module"}
+    E --> |Shape detection| F@{ shape: lin-cyl, label: "Processed Holds<br>corpus"}
+    F --> |Sent to| G@{ shape: lin-rect, label: "Problem setting module"}
+    F --> |Sent to| L@{ shape: lin-rect, label: "Problem selection module"}
     G -->|Updates| L
-    M@{ shape: circle, label: "User" } --> |Accesses| K
-    subgraph "Application"
-        K[Frontend Interface]-->|View all problems|L
+    M@{ shape: circle, label: "User" } -.-> |Accesses| K
+    subgraph "Cornifer application"
+        K[Frontend Interface] --> |View all problems|L
         K --> |View sorted problems| Y
         K --> |Select holds|G
     end
-    B -->|Provide training data| H@{ shape: diamond, label: "Generic ML<br>Model" }
-    F -->|Provide training data| H
-    H -->|Trained on data| I@{ shape: diamond, label: "Style Recognition<br>Model"}
+    B --> |Provide training data| H@{ shape: diamond, label: "Generic ML<br>Model" }
+    F --> |Provide training data| H
+    H --> |Trained on data| I@{ shape: diamond, label: "Style Recognition<br>Model"}
     I --> |Runs classification| L
     L --> |Classify climbing problems based on style| Y@{ shape: lin-rect, label: "Sorted problems module"}
 ```
