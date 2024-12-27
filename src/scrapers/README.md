@@ -11,17 +11,6 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://decoy-holds.com/pages/8x12-board-sets
 * https://www.teknikhandholds.com/pages/holds
 
-* https://trango.com/collections/holds
-* https://pusher.world/product-category/classic/
-* https://pusher.world/product-category/board-holds/
-* https://pusher.world/product-category/joes-valley/
-* https://pusher.world/product-category/woodie/
-
-* https://settercloset.com/collections/all-grips
-* https://www.artline-holds.com/en/
-* https://www.metoliusclimbing.com/climbing_holds.html
-* https://soillholds.com/collections/holds-volumes-macros-hangboards
-
 ## [Climbing boards](./boards.py)
 
 * https://moonclimbing.com/moonboard/kits-and-packages.html
@@ -32,3 +21,12 @@ Results scraped to [`generated_log`](./../generated_log/).
 * https://settercloset.com/products/kilter-board-original-complete
 * https://apps.apple.com/gb/app/woods-board/id1619846872
 * https://decoy-holds.com/pages/decoy-board
+
+## Unscraped
+
+* https://settercloset.com/collections/all-grips
+* https://www.artline-holds.com/en/
+* https://www.metoliusclimbing.com/climbing_holds.html
+* https://soillholds.com/collections/holds-volumes-macros-hangboards
+* https://trango.com/collections/holds
+* https://pusher.world/product-category/

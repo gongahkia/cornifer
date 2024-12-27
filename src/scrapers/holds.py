@@ -349,7 +349,51 @@ def scrape_teknik_handholds(
                     }
                     product_array.append(product_image)
             except Exception as e:
-                print(f"Error processing {url}: {e}")
+                print(f"Error: Unable to process {url}: {e}")
+        browser.close()
+    wrapper = {
+        site_identifier: product_array,
+    }
+    return wrapper
+
+
+def scrape_pusher(
+    site_identifier="pusher",
+    target_url_array=[
+        "https://pusher.world/product-category/classic/",
+        "https://pusher.world/product-category/board-holds/",
+        "https://pusher.world/product-category/joes-valley/",
+        "https://pusher.world/product-category/woodie/",
+    ],
+):
+    """
+    NOTE - this function is deprecated
+    scrapes product images from the pusher website
+    """
+    product_array = []
+    with sync_playwright() as p:
+        browser = p.chromium.launch(headless=True)
+        page = browser.new_page()
+        for url in target_url_array:
+            try:
+                page.goto(url)
+                print(f"Success: Retrieved page URL {url}")
+                page.wait_for_selector("ul.products")
+                products = page.query_selector_all("li.product")
+                for product in products:
+                    img_elements = product.query_selector_all(
+                        "div div.wc-img-wrap a img"
+                    )
+                    for img in img_elements:
+                        image_source = img.get_attribute("src")
+                        image_id = img.get_attribute("class")
+                        product_image = {
+                            "image_id": image_id,
+                            "image_source": image_source,
+                        }
+                        product_array.append(product_image)
+            except Exception as e:
+                print(f"Error: Unable to process {url}: {e}")
         browser.close()
     wrapper = {
         site_identifier: product_array,
