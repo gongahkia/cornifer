@@ -6,3 +6,5 @@ config:.pre-commit-config.yaml
 	pre-commit install
 	pre-commit run --all-files
 	@echo "precommit hooks have been installed!"
+	@pip install -r requirements.txt
+	@playwright install
