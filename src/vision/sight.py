@@ -85,7 +85,7 @@ def hold_selection_wrapper(
             for idx, contour in enumerate(holds_array):
                 if cv2.pointPolygonTest(contour, (x, y), False) >= 0:
                     clicked_holds.add(idx)
-                    print(f"Succes: Clicked on hold: {idx}")
+                    print(f"Success: Clicked on hold: {idx}")
 
     def render_holds_image():
         """

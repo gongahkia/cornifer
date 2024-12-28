@@ -27,6 +27,3 @@ if __name__ == "__main__":
         IMAGE_OUTPUT_FILEPATH,
         JSON_OUTPUT_FILEPATH,
     )
-    # if selection_tuple[0]:
-    #     print(selection_tuple[1])
-    #     print(f"CLICKED HOLDS\n{selection_tuple[1]}")
