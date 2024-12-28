@@ -3,19 +3,17 @@ x (A) Write scrapers that scrape the training board makers for training board im
 x (A) Learn how OpenCV works by following along with a worked example +deploy @dev 
 x (A) Write helper function that automatically reads log.json and downloads the image at the specified URL to a local folder @dev @scraper
 x (A) Add an architecture diagram in the README.md once the workflow is pretty much nailed down @dev @computer
+x (A) Try openCV for the climbing holds first @dev @opencv
+x (A) Try openCV for the training boards after that @dev @opencv
+x (A) Then ask chatgpt how I can use that openCV data to make a stokt-like app @dev @opencv
+x (A) Set up requirements.txt with all dependencies +deploy @dev @computer
+x (A) Set up basic OpenCV environment and dependencies +setup @opencv @dev
+x (A) Load images of climbing holds using OpenCV. +detection
+x (A) Convert images to grayscale to simplify processing. +detection
+x (A) Apply Gaussian Blur to reduce noise and improve contour detection. +detection
+x (A) Implement thresholding techniques (e.g., binary thresholding, Otsu's method) to isolate climbing holds from the background. +detection
+x (A) Use cv2.findContours() to detect contours in the thresholded image. +detection
 
-(A) Try openCV for the climbing holds first @dev @opencv
-(A) Try openCV for the training boards after that @dev @opencv
-(A) Then ask chatgpt how I can use that openCV data to make a stokt-like app @dev @opencv
-(A) Then ask chatgpt how to encode that data to a model @dev @opencv
-(A) Set up requirements.txt with all dependencies +deploy @dev @computer
-(A) Set up basic OpenCV environment and dependencies +setup @opencv @dev
-
-(A) Load images of climbing holds using OpenCV. +detection
-(A) Convert images to grayscale to simplify processing. +detection
-(A) Apply Gaussian Blur to reduce noise and improve contour detection. +detection
-(A) Implement thresholding techniques (e.g., binary thresholding, Otsu's method) to isolate climbing holds from the background. +detection
-(A) Use cv2.findContours() to detect contours in the thresholded image. +detection
 (A) Filter contours based on size and shape to focus on relevant climbing holds. +detection
 (A) Draw contours or bounding boxes around detected holds using cv2.drawContours(). +detection
 (A) Create a function to allow users to select highlighted holds (e.g., click events). +detection
@@ -32,6 +30,7 @@ x (A) Add an architecture diagram in the README.md once the workflow is pretty m
 (A) Create simple route visualization page +ui @frontend @computer
 (A) Implement basic image upload functionality +ui @frontend @dev
 
+(B) Then ask chatgpt how to encode that data to a model @dev @ml
 (B) Collect a corpus of images of climbing holds categorized by style or problem type. +ml @dev
 (B) Organize images into labeled directories for supervised learning. +ml @dev
 (B) Split the dataset into training, validation, and test sets. +ml @dev
