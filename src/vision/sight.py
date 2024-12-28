@@ -1,8 +1,10 @@
 # ----- REQUIRED IMPORTS -----
 
-import cv2
-import numpy as np
 import os
+import cv2
+import json
+import numpy as np
+import helper as he
 
 
 def render(target_filepath, mask):
@@ -55,40 +57,59 @@ def identify_contours(target_filepath_array, root_path, output_path):
         return (False, None)
 
 
-def hold_selection_wrapper(target_filepath):
+def hold_selection_wrapper(
+    image_specific_filepath, image_general_filepath, json_filepath
+):
     """
     wrapper function for reading hold selection
     """
     holds_array = []
+    clicked_holds = set()
+    holds_data = he.read_json(json_filepath)
+    if holds_data[0]:
+        holds_data = holds_data[1]
+        image_filepath = image_specific_filepath[len(image_general_filepath) :]
+        if image_filepath in holds_data:
+            holds_array = [np.array(hold) for hold in holds_data[image_filepath]]
+            print(f"Success: Holds found for {image_filepath}")
+        else:
+            print(f"Error: No holds found for {image_filepath}")
+    else:
+        print(f"Error: Unable to read holds from {json_filepath}")
 
     def mouse_callback(event, x, y, flags, param):
         """
         helper function that handles user hold selection
         """
         if event == cv2.EVENT_LBUTTONDOWN:
-            holds_array.append((x, y))
-            print(f"Selected hold at: ({x}, {y})")
+            for idx, contour in enumerate(holds_array):
+                if cv2.pointPolygonTest(contour, (x, y), False) >= 0:
+                    clicked_holds.add(idx)
+                    print(f"Succes: Clicked on hold: {idx}")
 
     def render_holds_image():
         """
-        helper function that renders an image with opencv and allows users to select holds
+        helper function that renders an image with OpenCV and allows users to select holds
         """
         try:
-            image = cv2.imread(target_filepath)
-            cv2.namedWindow(target_filepath)
-            cv2.setMouseCallback(target_filepath, mouse_callback)
+            image = cv2.imread(image_specific_filepath)
+            if image is None:
+                print(f"Error: Unable to read image at {image_specific_filepath}")
+                return
+            cv2.namedWindow(image_filepath)
+            cv2.setMouseCallback(image_filepath, mouse_callback)
             while True:
-                for hold in holds_array:
-                    cv2.circle(image, hold, 5, (0, 255, 0), -1)
-                cv2.imshow(target_filepath, image)
+                display_image = image.copy()
+                for idx, contour in enumerate(holds_array):
+                    color = (0, 255, 0) if idx not in clicked_holds else (0, 0, 255)
+                    cv2.drawContours(display_image, [contour], -1, color, 2)
+                cv2.imshow(image_filepath, display_image)
                 key = cv2.waitKey(1)
                 if key == 27:
                     break
             cv2.destroyAllWindows()
-            print("Success: Holds selected successfully")
-            return (True, holds_array)
-        except Exception as e:
-            print(f"Error: Unable to render holds image: {e}")
+            return (True, clicked_holds)
+        except:
             return (False, None)
 
-    return render_holds_image()
+    render_holds_image()

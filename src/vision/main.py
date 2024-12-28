@@ -22,6 +22,11 @@ if __name__ == "__main__":
     he.json_to_gzip_wrapper(result_tuple[1], GZIP_OUTPUT_FILEPATH)
     he.gzip_to_json_wrapper(JSON_OUTPUT_FILEPATH, GZIP_OUTPUT_FILEPATH)
 
-    # selection_tuple = s.hold_selection_wrapper("./../corpus/clean/boards_images/32115929874594.jpeg")
+    selection_tuple = s.hold_selection_wrapper(
+        "./../corpus/clean/boards_images/32115929874594.jpeg",
+        IMAGE_OUTPUT_FILEPATH,
+        JSON_OUTPUT_FILEPATH,
+    )
     # if selection_tuple[0]:
     #     print(selection_tuple[1])
+    #     print(f"CLICKED HOLDS\n{selection_tuple[1]}")

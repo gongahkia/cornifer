@@ -31,6 +31,26 @@ def unsafe_write_gzip(gzip_data, target_filepath):
         return False
 
 
+def read_json(target_filepath):
+    """
+    safely load data from a JSON file
+    """
+    try:
+        with open(target_filepath, "r") as f:
+            data = json.load(f)
+        print(f"Success: JSON file at {target_filepath} succesfully read")
+        return (True, data)
+    except FileNotFoundError:
+        print("Error: The file was not found")
+        return (False, None)
+    except json.JSONDecodeError:
+        print("Error: Failed to decode JSON")
+        return (False, None)
+    except Exception as e:
+        print(f"Error: Unable to read from {target_filepath}: {e}")
+        return (False, None)
+
+
 def read_gzip(target_filepath):
     """
     reads gzip data from a gzip file
