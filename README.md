@@ -4,9 +4,39 @@ The [little bug](https://www.reddit.com/r/HollowKnight/comments/n646h6/iis_it_re
 
 ## Rationale
 
+Cooked this up over a 2-day period to [benchmark](https://makemeaprogrammer.com/what-is-benchmarking/) myself as a programmer.
+
 ![](./assets/rationale.png)
 
+## Screenshot
+
+![](./assets/screenshot-1.png)
+![](./assets/screenshot-2.png)
+![](./assets/screenshot-3.png)
+![](./assets/screenshot-4.png)
+
+## Layout
+
+| File / Folder name | Purpose |
+| :--- | :--- |
+| [`scrapers`](./src/scrapers/) | Web Scrapers|
+| [`generated_log`](./src/generated_log/) | Log data |
+| [`corpus`](./src/corpus/) | Raw and cleaned image corpus |
+| [`model`](./src/model/) | Style classification model |
+| [`vision`](./src/vision/) | OpenCV hold thresholding and detection |
+
 ## Usage
+
+### Scrapers
+
+```console
+$ git clone https://github.com/gongahkia/cornifer
+$ make config
+$ cd src/scrapers/
+$ make
+```
+
+### Cornifer application
 
 ```console
 $ git clone https://github.com/gongahkia/cornifer
