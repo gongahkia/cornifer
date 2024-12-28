@@ -16,3 +16,4 @@ if __name__ == "__main__":
         FINAL = "./nice.json"
         with open(FINAL, "w") as f:
             json.dump(result_tuple[1], f, indent=4)
+    s.hold_selection_wrapper()

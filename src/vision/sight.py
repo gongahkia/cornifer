@@ -55,23 +55,21 @@ def identify_contours(target_filepath_array, root_path, output_path="./identifie
         return (False, None)
 
 
-def hold_selection_wrapper():
+def hold_selection_wrapper(target_filepath):
     """
-    wrapper function for reading hold selection input
+    wrapper function for reading hold selection
     """
-
     holds_array = []
 
-    def mouse_callback(event, x, y, holds_array, flags, param):
+    def mouse_callback(event, x, y, flags, param):
         """
         helper function that handles user hold selection
         """
         if event == cv2.EVENT_LBUTTONDOWN:
             holds_array.append((x, y))
             print(f"Selected hold at: ({x}, {y})")
-        return holds_array
 
-    def render_holds_image(selected_holds, target_filepath):
+    def render_holds_image():
         """
         helper function that renders an image with opencv and allows users to select holds
         """
@@ -79,9 +77,13 @@ def hold_selection_wrapper():
         cv2.namedWindow("Image")
         cv2.setMouseCallback("Image", mouse_callback)
         while True:
+            for hold in holds_array:
+                cv2.circle(image, hold, 5, (0, 255, 0), -1)
             cv2.imshow("Image", image)
             key = cv2.waitKey(1)
             if key == 27:
                 break
         cv2.destroyAllWindows()
-        return selected_holds
+        return holds_array
+
+    return render_holds_image()
