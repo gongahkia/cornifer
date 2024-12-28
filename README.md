@@ -4,11 +4,16 @@ The [little bug](https://www.reddit.com/r/HollowKnight/comments/n646h6/iis_it_re
 
 ## Rationale
 
-> TODO 
+![](./assets/rationale.png)
 
 ## Usage
 
-> TODO
+```console
+$ git clone https://github.com/gongahkia/cornifer
+$ make config
+$ cd src/vision/
+$ make
+```
 
 ## Architecture
 
@@ -26,7 +31,7 @@ graph TD;
     G -->|Updates| L
     M@{ shape: circle, label: "User" } -.-> |Accesses| K
     subgraph "Cornifer application"
-        K[Frontend Interface] --> |View all problems|L
+        K[NiceGUI Frontend] --> |View all problems|L
         K --> |View sorted problems| Y
         K --> |Select holds|G
     end
