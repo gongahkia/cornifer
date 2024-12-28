@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/cornifer_1.0-passing-green)](https://github.com/gongahkia/cornifer/releases/tag/1.0)
+
 # `Cornifer`
 
 The [little bug](https://www.reddit.com/r/HollowKnight/comments/n646h6/iis_it_really_you_cornifer/) that could.
