@@ -10,8 +10,8 @@ if __name__ == "__main__":
     ENCRYPTION_SALT = "bouldering"
     HOLDS_LOG_FILEPATH = "./../generated_log/holds_log.json"
     BOARDS_LOG_FILEPATH = "./../generated_log/boards_log.json"
-    HOLDS_IMAGE_FILEPATH = "./holds_images/"
-    BOARDS_IMAGE_FILEPATH = "./boards_images/"
+    HOLDS_IMAGE_FILEPATH = "./../corpus/raw/holds_images/"
+    BOARDS_IMAGE_FILEPATH = "./../corpus/raw/boards_images/"
 
     # he.delete_file(HOLDS_LOG_FILEPATH)
     # he.delete_file(BOARDS_LOG_FILEPATH)

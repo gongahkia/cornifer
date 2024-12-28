@@ -49,6 +49,7 @@ x (A) Add an architecture diagram in the README.md once the workflow is pretty m
 (B) Prepare the trained model for deployment (e.g., convert to TensorFlow Serving format). +ml @dev
 (B) Integrate the model into the frontend application so users can classify climbing problems based on uploaded images. +ml @dev
 (B) Document the model training process, including data preparation steps and evaluation metrics within the README.md +ml @dev
+(B) Figure out if there's a way to integrate an agentic workflow into everything here +ml @dev
 
 (B) Create basic neural network architecture for style recognition +ml @neural @research
 (B) Implement initial training pipeline +ml @neural @computer
