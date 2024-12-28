@@ -112,4 +112,4 @@ def hold_selection_wrapper(
         except:
             return (False, None)
 
-    render_holds_image()
+    return render_holds_image()
