@@ -13,21 +13,20 @@ x (A) Convert images to grayscale to simplify processing. +detection
 x (A) Apply Gaussian Blur to reduce noise and improve contour detection. +detection
 x (A) Implement thresholding techniques (e.g., binary thresholding, Otsu's method) to isolate climbing holds from the background. +detection
 x (A) Use cv2.findContours() to detect contours in the thresholded image. +detection
+x (A) Set up basic NICEGUI project structure +setup @frontend @dev
+x (A) Create initial dataset structure for hold images +data @computer
+x (A) Create simple route visualization page +ui @frontend @computer
+x (A) Create hold detection prototype using basic shape recognition +detection @opencv @dev
+x (A) Implement functionality to allow users to set custom climbing problems based on selected holds. +detection
+x (A) Test the application with various images of climbing holds. +detection
+x (A) Filter contours based on size and shape to focus on relevant climbing holds. +detection
+x (A) Draw contours or bounding boxes around detected holds using cv2.drawContours(). +detection
+x (A) Create a function to allow users to select highlighted holds (e.g., click events). +detection
 
-(A) Filter contours based on size and shape to focus on relevant climbing holds. +detection
-(A) Draw contours or bounding boxes around detected holds using cv2.drawContours(). +detection
-(A) Create a function to allow users to select highlighted holds (e.g., click events). +detection
 (A) Design a simple frontend interface for users to upload images and view detected holds. +detection
-(A) Implement functionality to allow users to set custom climbing problems based on selected holds. +detection
-(A) Test the application with various images of climbing holds. +detection
 (A) Collect feedback from users and iterate on the detection algorithm for improvements. +detection
 (A) Document the code and provide usage instructions for the application by cleaning up the README.md +detection
-
-(A) Create hold detection prototype using basic shape recognition +detection @opencv @dev
 (A) Implement color-based hold segmentation +detection @opencv @computer
-(A) Create initial dataset structure for hold images +data @computer
-(A) Set up basic NICEGUI project structure +setup @frontend @dev
-(A) Create simple route visualization page +ui @frontend @computer
 (A) Implement basic image upload functionality +ui @frontend @dev
 
 (B) Then ask chatgpt how to encode that data to a model @dev @ml
