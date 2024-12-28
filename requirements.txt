@@ -3,3 +3,4 @@ numpy
 Flask
 playwright
 cryptography
+Pillow

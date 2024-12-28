@@ -11,11 +11,11 @@ if __name__ == "__main__":
     JSON_OUTPUT_FILEPATH = "./../generated_log/boards_contours_log.json"
     GZIP_OUTPUT_FILEPATH = "./../generated_log/boards_contours_log.gz"
 
-    result_tuple = s.identify_contours(
-        he.list_folder_files(IMAGE_INPUT_FILEPATH, ".jpeg"),
-        IMAGE_INPUT_FILEPATH,
-        IMAGE_OUTPUT_FILEPATH,
-    )
+    # result_tuple = s.identify_contours(
+    #     he.list_folder_files(IMAGE_INPUT_FILEPATH, ".jpeg"),
+    #     IMAGE_INPUT_FILEPATH,
+    #     IMAGE_OUTPUT_FILEPATH,
+    # )
 
     # if result_tuple[0]:
     #     print(result_tuple[1])
@@ -23,7 +23,7 @@ if __name__ == "__main__":
     # he.gzip_to_json_wrapper(JSON_OUTPUT_FILEPATH, GZIP_OUTPUT_FILEPATH)
 
     selection_tuple = s.hold_selection_wrapper(
-        "./../corpus/clean/boards_images/32115929874594.jpeg",
+        "./../corpus/clean/boards_images/35301306400930.jpeg",
         IMAGE_OUTPUT_FILEPATH,
         JSON_OUTPUT_FILEPATH,
     )
