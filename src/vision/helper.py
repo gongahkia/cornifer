@@ -87,3 +87,41 @@ def decompress_gzip(compressed_data):
     except Exception as e:
         print(f"Error: Unable to decompress JSON: {e}")
         return (False, None)
+
+
+def json_to_gzip_wrapper(json_data, gzip_output_filepath):
+    """
+    wrapper function to compress a json to a gzip and write it
+    """
+    try:
+        compression_tuple = compress_json(json_data)
+        if compression_tuple[0]:
+            unsafe_write_gzip(compression_tuple[1], gzip_output_filepath)
+            print("Success: JSON successfully compressed")
+            return True
+        else:
+            print("Error: Unable to compress JSON")
+            return False
+    except Exception as e:
+        print(f"Error: Unable to compress JSON: {e}")
+        return False
+
+
+def gzip_to_json_wrapper(json_output_filepath, gzip_output_filepath):
+    """
+    wrapper function to decompress a gzip to a json and write it
+    """
+    try:
+        read_gzip_tuple = read_gzip(gzip_output_filepath)
+        if read_gzip_tuple[0]:
+            decompression_tuple = decompress_gzip(read_gzip_tuple[1])
+            if decompression_tuple[0]:
+                unsafe_write_json(decompression_tuple[1], json_output_filepath)
+                print("Success: JSON successfully decompressed")
+                return True
+            else:
+                print("Error: Unable to decompress JSON")
+                return False
+    except Exception as e:
+        print(f"Error: Unable to decompress JSON: {e}")
+        return False

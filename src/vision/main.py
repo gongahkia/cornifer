@@ -1,6 +1,5 @@
 # ----- REQUIRED IMPORTS -----
 
-import json
 import sight as s
 import helper as he
 
@@ -20,11 +19,8 @@ if __name__ == "__main__":
 
     if result_tuple[0]:
         print(result_tuple[1])
-        compression_tuple = he.compress_json(result_tuple[1])
-        if compression_tuple[0]:
-            he.unsafe_write_gzip(compression_tuple[1], GZIP_OUTPUT_FILEPATH)
-        decompression_tuple = he.decompress_gzip(he.read_gzip(GZIP_OUTPUT_FILEPATH))
-        if decompression_tuple[0]:
-            he.write_json(decompression_tuple[1], JSON_OUTPUT_FILEPATH)
+
+    he.json_to_gzip_wrapper(result_tuple[1], GZIP_OUTPUT_FILEPATH)
+    he.gzip_to_json_wrapper(JSON_OUTPUT_FILEPATH, GZIP_OUTPUT_FILEPATH)
 
     # s.hold_selection_wrapper("./identified/32115929874594.jpeg")
