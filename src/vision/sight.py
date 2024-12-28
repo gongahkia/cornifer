@@ -21,7 +21,7 @@ def render(target_filepath, mask):
 # ----- HELPER FUNCTIONS -----
 
 
-def identify_contours(target_filepath_array, root_path, output_path="./identified/"):
+def identify_contours(target_filepath_array, root_path, output_path):
     """
     identify contours in a specified image and write them to an output path
     """

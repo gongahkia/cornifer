@@ -1,4 +1,19 @@
 import os
+import json
+
+
+def unsafe_write_json(data, target_filepath):
+    """
+    indiscriminately writes dictionary data to a specified json file without checking
+    """
+    try:
+        with open(target_filepath, "w") as f:
+            json.dump(data, f, indent=4)
+        print(f"Success: Data successfully written to {target_filepath}")
+        return True
+    except:
+        print(f"Error: Unable to write to {target_filepath}")
+        return False
 
 
 def list_folder_files(target_folderpath, file_extension=None):
