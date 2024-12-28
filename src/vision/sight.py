@@ -73,17 +73,22 @@ def hold_selection_wrapper(target_filepath):
         """
         helper function that renders an image with opencv and allows users to select holds
         """
-        image = cv2.imread(target_filepath)
-        cv2.namedWindow("Image")
-        cv2.setMouseCallback("Image", mouse_callback)
-        while True:
-            for hold in holds_array:
-                cv2.circle(image, hold, 5, (0, 255, 0), -1)
-            cv2.imshow("Image", image)
-            key = cv2.waitKey(1)
-            if key == 27:
-                break
-        cv2.destroyAllWindows()
-        return holds_array
+        try:
+            image = cv2.imread(target_filepath)
+            cv2.namedWindow(target_filepath)
+            cv2.setMouseCallback(target_filepath, mouse_callback)
+            while True:
+                for hold in holds_array:
+                    cv2.circle(image, hold, 5, (0, 255, 0), -1)
+                cv2.imshow(target_filepath, image)
+                key = cv2.waitKey(1)
+                if key == 27:
+                    break
+            cv2.destroyAllWindows()
+            print("Success: Holds selected successfully")
+            return (True, holds_array)
+        except Exception as e:
+            print(f"Error: Unable to render holds image: {e}")
+            return (False, None)
 
     return render_holds_image()
