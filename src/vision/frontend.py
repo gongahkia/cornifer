@@ -52,10 +52,16 @@ def nicegui_frontend_wrapper(
     """
     wrapper function to run the nicegui frontend
     """
+    ui.label("Cornifer").style("font-size: 42px; font-weight: bold;")
+    ui.link("@gongahkia", "https://github.com/gongahkia").style(
+        "font-size: 20px; color: blue; text-decoration: underline;"
+    )
+    ui.label("What if I made Stōkt but worse.").style(
+        "font-size: 20px; font-weight: italic;"
+    )
+    ui.image("./../../assets/cornifer.png").style("width: 100%; max-width: 600px;")
     with ui.row():
-        ui.label("Choose an image will ya").style(
-            "font: 'Comic Sans MS'; font-size: 24px; font-weight: bold;"
-        )
+        ui.label("Choose an image").style("font-size: 32px; font-weight: bold;")
     for img in load_images_from_folder(image_folder_path):
         ui.button(
             img,
