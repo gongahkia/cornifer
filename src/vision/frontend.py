@@ -46,9 +46,7 @@ def select_image(image_folder_path, image_output_filepath, json_output_filepath)
         ui.run(close=True)
 
 
-def nicegui_frontend_wrapper(
-    image_folder_path, image_output_filepath, json_output_filepath
-):
+def nicegui_frontend_wrapper(image_folder_path, json_output_filepath):
     """
     wrapper function to run the nicegui frontend
     """
@@ -62,6 +60,7 @@ def nicegui_frontend_wrapper(
     ui.image("./../../assets/cornifer.png").style("width: 100%; max-width: 600px;")
     with ui.row():
         ui.label("Choose an image").style("font-size: 32px; font-weight: bold;")
+    image_output_filepath = image_folder_path
     for img in load_images_from_folder(image_folder_path):
         ui.button(
             img,
@@ -70,14 +69,3 @@ def nicegui_frontend_wrapper(
             ),
         )
     ui.run()
-
-
-# ----- EXECUTION CODE -------
-
-if __name__ in {"__main__", "__mp_main__"}:
-    IMAGE_FOLDER_PATH = "./../corpus/clean/boards_images/"
-    IMAGE_OUTPUT_FILEPATH = "./../corpus/clean/boards_images/"
-    JSON_OUTPUT_FILEPATH = "./../generated_log/boards_contours_log.json"
-    nicegui_frontend_wrapper(
-        IMAGE_FOLDER_PATH, IMAGE_OUTPUT_FILEPATH, JSON_OUTPUT_FILEPATH
-    )
