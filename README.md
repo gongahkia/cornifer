@@ -2,7 +2,7 @@
 
 # `Cornifer`
 
-The [little bug](https://www.reddit.com/r/HollowKnight/comments/n646h6/iis_it_really_you_cornifer/) that could.
+The [little bug](https://www.reddit.com/r/HollowKnight/comments/n646h6/iis_it_really_you_cornifer/) that could (make anything a spray wall).
 
 ## Rationale
 
