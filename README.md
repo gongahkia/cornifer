@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/cornifer_1.0.0-passing-green)](https://github.com/gongahkia/cornifer/releases/tag/1.0.0) [![](https://img.shields.io/badge/cornifer_2.0.0-build-orange)](https://github.com/gongahkia/cornifer/releases/tag/1.1.0)
+[![](https://img.shields.io/badge/cornifer_1.0.0-passing-green)](https://github.com/gongahkia/cornifer/releases/tag/1.0.0) [![](https://img.shields.io/badge/cornifer_1.1.0-build-orange)](https://github.com/gongahkia/cornifer/releases/tag/1.1.0)
 
 # `Cornifer`
 
