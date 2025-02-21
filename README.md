@@ -1,4 +1,4 @@
-[![](https://img.shields.io/badge/cornifer_1.0.0-passing-green)](https://github.com/gongahkia/cornifer/releases/tag/1.0.0) [![](https://img.shields.io/badge/cornifer_1.1.0-build-orange)](https://github.com/gongahkia/cornifer/releases/tag/1.1.0)
+[![](https://img.shields.io/badge/cornifer_1.0.0-passing-green)](https://github.com/gongahkia/cornifer/releases/tag/1.0.0) 
 
 # `Cornifer`
 
@@ -48,6 +48,52 @@ $ make
 ```
 
 ## Architecture
+
+### DB
+
+Processed holds are stored in [ChromaDB](https://www.trychroma.com/) per the below schema.
+
+```mermaid
+erDiagram
+    HOLD {
+        int id PK
+        string hold_type
+        string shape
+        float size
+        vector position
+        string color
+        string texture
+        vector embedding
+    }
+    PROBLEM {
+        int id PK
+        string name
+        string difficulty
+        date created_at
+    }
+    HOLD_PROBLEM {
+        int hold_id FK
+        int problem_id FK
+        int sequence_number
+    }
+    STYLE {
+        int id PK
+        string name
+        string description
+    }
+    PROBLEM_STYLE {
+        int problem_id FK
+        int style_id FK
+        float confidence
+    }
+
+    HOLD ||--o{ HOLD_PROBLEM : "is part of"
+    PROBLEM ||--o{ HOLD_PROBLEM : "consists of"
+    PROBLEM ||--o{ PROBLEM_STYLE : "classified as"
+    STYLE ||--o{ PROBLEM_STYLE : "classifies"
+```
+
+### Overview
 
 ```mermaid
 graph TD;
